@@ -3,7 +3,7 @@
     <transition name="fade" appear>
     <section class="section">
       <div class="container">
-        <div class="content" style="padding: 5rem; color:white;">
+        <div class="content" style="color:white;">
           <div class="post-title">
             <h2 class="title is-medium">{{ $page.post.title }}</h2>
             <PostMeta :post="$page.post" />
@@ -11,7 +11,7 @@
 
           <div class="post__header">
             <g-image
-              alt="Cover image"
+              :salt="$page.post.title"
               v-if="$page.post.cover_image"
               :src="$page.post.cover_image"
             />

@@ -262,7 +262,7 @@ export default {
 
 <page-query>
   query ($page: Int){
-    blogs: allBlogPost (perPage: 1, page: $page, sortBy: "dateCreated" ,order: DESC ) @paginate {
+    blogs: allBlogPost (perPage: 2, page: $page, sortBy: "dateCreated" ,order: DESC ) @paginate {
       pageInfo {
         totalPages
         currentPage

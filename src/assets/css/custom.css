@@ -13,6 +13,9 @@ body h2, h4 {
     color: beige !important;
     position: relative;
 }
+body h3, h5, h6 {
+    color: beige !important;
+}
 
 body h2::first-letter {
     color: rgb(100, 255, 218);

@@ -11,11 +11,11 @@ When working with the python interactive shell, you may end up having a cluttere
 
 We need to get into python shell first 😆. To do this, type `python` in your terminal or if you want to access the Django DB shell, `python manage.py shell` will suffice.
 
-## first method
+### first method
 
 The simplest method is using `ctrl+l` for Linux/OS X terminals.
 
-## second method
+### second method
 
 Another handy way is by using the [os module](https://docs.python.org/3/library/os.html) that ships with the standard python library. This module provides a portable way of using operating system dependent functionality.
 
@@ -41,9 +41,9 @@ and call the function in the python shell by running `cls()`
 
 Note that you don't have to declare the function as clear or cls. You can name them whatever you want, as long as you use that name when calling them.
 
-## Other useful tricks you can use with the os module
+### Other useful tricks you can use with the os module
 
-## Getting the current working directory
+### Getting the current working directory
 
 ```python
 import os
@@ -52,7 +52,7 @@ os.getcwd()
 
 In my case, this returned `'/Users/me/Projects'`
 
-## Changing the current working directory
+### Changing the current working directory
 
 ```python
 os.chdir('..')
@@ -60,7 +60,7 @@ os.chdir('..')
 
 This should work similar to `cd ..` returning `'/Users/me'`
 
-## listing items in a directory
+### listing items in a directory
 
 ```python
 os.listdir('directory_path')
@@ -68,7 +68,7 @@ os.listdir('directory_path')
 
 similar to the `ls` command.
 
-## get currently logged in user operating the terminal
+### get currently logged in user operating the terminal
 
 ```python
 os.getlogin()

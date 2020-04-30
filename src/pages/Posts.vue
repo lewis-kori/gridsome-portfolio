@@ -27,8 +27,7 @@ import BlogCard from "~/components/BlogCard";
 export default {
   components: {
     NavBar,
-    BlogCard,
-    Footer
+    BlogCard
   },
 };
 </script>

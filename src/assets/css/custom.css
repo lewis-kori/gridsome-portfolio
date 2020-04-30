@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    background-color: rgb(10, 25, 47);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    color: rgb(136, 146, 176) !important;
+}
+
+body h2, h4 {
+    color: beige !important;
+    position: relative;
+}
+
+body h2::first-letter {
+    color: rgb(100, 255, 218);
+}
+
+body h2::after {
+    content: "";
+    border-bottom: 2px solid rgb(48, 60, 85);
+    height: 0.2em;
+    padding: 0 5rem;
+    margin-left: 20px;
+    bottom: 40%;
+    position: absolute;
+}
+
+::selection {
+    background-color: rgb(136, 146, 176);
+    color: rgb(204, 214, 246);
+}
+
+::-moz-selection {
+    background-color: rgb(136, 146, 176);
+    color: rgb(204, 214, 246);
+}
+
+
+.hero-body h4 {
+    /* margin-top: 20%;
+    transform: translateY(-20); */
+    color: rgb(100, 255, 218) !important;
+}
+
+body a:hover {
+    color: rgb(100, 255, 218) !important;
+    background: none !important;
+}
+
+.hero {
+    height: 60vh;
+}
+
+.card-tile {
+    background-color: rgb(23, 42, 69) !important;
+    color: rgb(168, 178, 209) !important;
+    transition: all .2s ease-in-out;
+}
+
+.card-tile:hover {
+    transform: scale(1.1);
+}
+
+.card-header-title {
+    color: rgb(100, 255, 218) !important;
+}
+
+.card-footer {
+    border-top: #4a4a4a !important;
+    text-align: right !important;
+}
+
+.card-footer-item {
+    border-right: none !important;
+    justify-content: right !important;
+}
+
+.btn {
+    border-radius: 4px;
+    background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1.1rem;
+    width: 10rem;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btn a {
+    color: #FFFFFF;
+}
+
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.btn span::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn:hover span {
+    padding-right: 25px;
+}
+
+.btn:hover span::after {
+    opacity: 1;
+    right: 0;
+}
+
+.footer {
+    background-color: rgb(10, 25, 47) !important;
+}
+
+@media screen and (min-width: 0px) and (max-width:1000px) {
+    .socials-hero {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width:2048px) {
+    .socials-hero {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width:1000px) {
+    .socials-footer {
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width:2048px) {
+    .socials-footer {
+        display: none !important;
+    }
+}
+
+.pic {
+    position: relative;
+    margin: auto;
+}
+
+.pic-inner {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 1;
+}
+
+.projects {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.projects-tile {
+    background-color: rgb(23, 42, 69) !important;
+    color: rgb(168, 178, 209) !important;
+    transition: all .2s ease-in-out;
+    text-align: justify !important;
+}
+
+.projects h4:hover {
+    color: rgb(100, 255, 218) !important;
+}
+
+.box {
+    background-color: rgb(10, 25, 47) !important;
+    position: relative;
+}
+
+@media screen and (min-width: 0px) and (max-width:1000px) {
+
+    li:nth-child(odd) .text,
+    li:nth-child(even) .text {
+        position: relative !important;
+        float: none !important;
+        width: 100% !important;
+        z-index: 2 !important;
+        transform: none !important;
+        color: white !important;
+    }
+
+    li:nth-child(even) .projects-picture,
+    li:nth-child(odd) .projects-picture {
+        float: none !important;
+        position: relative !important;
+        width: 100% !important;
+        z-index: 1 !important;
+        margin-top: -20px !important;
+        transform: translateY(-15rem) !important;
+        opacity: 0.5 !important;
+    }
+
+    li:nth-child(even) .text .tile,
+    li:nth-child(odd) .text .tile {
+        opacity: 0.7 !important;
+        color: white !important;
+    }
+}
+
+
+li:nth-child(even) .text .tile,
+li:nth-child(odd) .text .tile {
+    margin-bottom: 1rem !important;
+}
+
+li:nth-child(even) .text {
+    margin: auto;
+    position: relative;
+    width: 50%;
+    float: left;
+    transform: translateX(4rem);
+    z-index: 2;
+}
+
+li:nth-child(even) .projects-picture {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+
+li:nth-child(odd) .text {
+    margin: auto;
+    position: relative;
+    width: 50%;
+    float: right;
+    text-align: right;
+    transform: translateX(-4rem);
+    z-index: 2;
+}
+
+li:nth-child(odd) .projects-picture {
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    float: left;
+    height: 100%;
+}

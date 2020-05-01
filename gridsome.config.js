@@ -12,7 +12,7 @@ module.exports = {
       use: "@gridsome/source-filesystem",
       options: {
         typeName: "BlogPost",
-        path: "blog/**/*.md",
+        path: "content/blog/**/*.md",
         refs: {
           tags: {
             typeName: "Tag",
@@ -25,7 +25,14 @@ module.exports = {
       use: "@gridsome/source-filesystem",
       options: {
         typeName: "Projects",
-        path: "projects/**/*.md",
+        path: "content/projects/**/*.md",
+      },
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "About",
+        path: "content/about/**/*.md",
       },
     },
   ],

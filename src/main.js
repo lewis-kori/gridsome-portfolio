@@ -25,6 +25,10 @@ export default function(Vue, { router, head, isClient }) {
     body: true,
   });
   head.script.push({
+    src: "//cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js",
+    body: true,
+  });
+  head.script.push({
     src: "https://platform.twitter.com/widgets.js",
     body: true,
   });

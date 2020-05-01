@@ -9,26 +9,36 @@
               <br />
               <div class="tile">
                 <article class="tile is-child is-12 notification projects-tile">
-                  <p class="projects__content" v-html="project.content">
-                  </p>
+                  <p class="projects__content" v-html="project.content"></p>
                 </article>
                 <!-- The magical tile element! -->
               </div>
               <div v-if="project.tech">
-                <span v-for="tech in project.tech" :key="tech.index" style="margin: 1%;">{{ tech }}</span>
+                <span
+                  v-for="tech in project.tech"
+                  :key="tech.index"
+                  style="margin: 1%;"
+                  >{{ tech }}</span
+                >
               </div>
 
               <div>
-                <span class="icon" v-if="project.github_link"><g-link :to="project.github_link"><i class="fab fa-github-alt"></i></g-link></span>
+                <span class="icon" v-if="project.github_link"
+                  ><g-link :to="project.github_link"
+                    ><i class="fab fa-github-alt"></i></g-link
+                ></span>
                 <span class="icon" v-if="project.external_link"
-                  ><g-link :to="project.external_link"><i class="fas fa-external-link-alt"></i
-                ></g-link></span>
+                  ><g-link :to="project.external_link"
+                    ><i class="fas fa-external-link-alt"></i></g-link
+                ></span>
               </div>
             </div>
 
             <div class="projects-picture">
               <figure class="image is-640x360">
-                <g-image :src="project.cover_image" alt="" />
+                <g-link :to="project.github_link">
+                  <g-image :src="project.cover_image" alt="" />
+                </g-link>
               </figure>
             </div>
           </div>
@@ -40,9 +50,9 @@
 
 <script>
 export default {
-    name: 'ProjectBox',
-    props: ['project']
-}
+  name: "ProjectBox",
+  props: ["project"],
+};
 </script>
 
 <style scoped>

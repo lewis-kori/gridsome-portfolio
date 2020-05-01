@@ -4,11 +4,13 @@
 import DefaultLayout from "~/layouts/Default.vue";
 // import Buefy
 import Buefy from "buefy";
+import vueSmoothScroll from 'vue2-smooth-scroll'
 import "buefy/dist/buefy.css";
 import "~/assets/css/custom.css";
 
 export default function(Vue, { router, head, isClient }) {
   Vue.use(Buefy);
+  Vue.use(vueSmoothScroll)
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
   head.link.push({

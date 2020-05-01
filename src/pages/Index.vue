@@ -10,7 +10,7 @@
             aria-label="main navigation"
           >
             <div class="navbar-brand">
-              <a href="https://bulma.io" class="navbar-item">
+              <a href="/" class="navbar-item">
                 <img
                   src="https://bulma.io/images/bulma-logo.png"
                   width="112"
@@ -33,10 +33,12 @@
 
             <div id="navbarItems" class="navbar-menu">
               <div class="navbar-end">
-                <a data-scroll href="#about" class="navbar-item">About</a>
-                <a href="#blog" class="navbar-item">Blog</a>
-                <a href="#projects" class="navbar-item">Projects</a>
-                <a href="#contact" class="navbar-item">Contact</a>
+                <a href="#about" v-smooth-scroll="scroll" class="navbar-item">About</a>
+                <a href="#blog" v-smooth-scroll="scroll" class="navbar-item">Blog</a>
+                <a href="#projects" v-smooth-scroll="scroll" class="navbar-item"
+                  >Projects</a
+                >
+                <a href="#contact" v-smooth-scroll="scroll" class="navbar-item">Contact</a>
               </div>
             </div>
           </nav>
@@ -206,6 +208,11 @@ export default {
     BlogCard,
     ProjectBox,
     Footer,
+  },
+  data() {
+    return {
+      scroll: { duration: 2000, offset: -50, updateHistory: false },
+    };
   },
   computed: {
     viewMore() {

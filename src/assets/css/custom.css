@@ -22,15 +22,7 @@ body h2::first-letter {
     color: rgb(100, 255, 218);
 }
 
-body h2::after {
-    content: "";
-    border-bottom: 2px solid rgb(48, 60, 85);
-    height: 0.2em;
-    padding: 0 5rem;
-    margin-left: 20px;
-    bottom: 40%;
-    position: absolute;
-}
+
 
 ::selection {
     background-color: rgb(136, 146, 176);
@@ -150,6 +142,15 @@ body a:hover {
     .socials-footer {
         display: none !important;
     }
+    body h2::after {
+        content: "";
+        border-bottom: 2px solid rgb(48, 60, 85);
+        height: 0.2em;
+        padding: 0 5rem;
+        margin-left: 20px;
+        bottom: 40%;
+        position: absolute;
+    }
 }
 
 .pic {
@@ -218,8 +219,17 @@ body a:hover {
         opacity: 0.7 !important;
         color: white !important;
     }
-}
 
+    body h2::after {
+        content: "";
+        border-bottom: 2px solid rgb(48, 60, 85);
+        height: 0.2em;
+        padding: 0 2rem;
+        margin-left: 20px;
+        bottom: 40%;
+        position: absolute;
+    }
+}
 
 li:nth-child(even) .text .tile,
 li:nth-child(odd) .text .tile {

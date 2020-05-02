@@ -22,9 +22,9 @@ for detailed information on the workings of docker, I'd recommend reading [this 
 In case you don't have docker installed on your machine follow the detailed steps below as per your operating system.
 Going forwards, I've assumed you already had an existing django application, so this tutorial will just be a guide on how to containerize it.
 
-1.[windows 10 pro](https://docs.docker.com/docker-for-windows/install/)
-2.[windows 10 that's not pro](https://docs.docker.com/toolbox/toolbox_install_windows/)
-3.[ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04)
+1. [windows 10 pro](https://docs.docker.com/docker-for-windows/install/)
+2. [windows 10 that's not pro](https://docs.docker.com/toolbox/toolbox_install_windows/)
+3. [ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04)
 
 ### Getting started
 

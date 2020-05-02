@@ -1,6 +1,7 @@
 <template>
   <div>
     <NavBar>
+      <transition name="fade">
       <section class="section" style="margin-top: 1rem;">
         <div class="columns is-mobile is-centered">
           <div id="blog" class="column is-half has-text-centered">
@@ -17,6 +18,7 @@
           </div>
         </div>
       </section>
+      </transition>
     </NavBar>
   </div>
 </template>
@@ -32,9 +34,10 @@ export default {
 };
 </script>
 
+</style>
 <page-query>
 query {
-  blogs: allBlogPost {
+  blogs: allBlogPost(sortBy: "dateCreated" ,order: DESC) {
   edges {
     node {
       id

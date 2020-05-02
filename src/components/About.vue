@@ -26,3 +26,10 @@ export default {
     props: ['about']
 }
 </script>
+
+<style scoped>
+.about_content {
+  margin: 0;
+  padding: 3px !important;
+}
+</style>

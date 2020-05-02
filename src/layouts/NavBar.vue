@@ -1,37 +1,94 @@
 <template>
   <div>
-    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a href="https://bulma.io" class="navbar-item">
-          <img
-            src="https://bulma.io/images/bulma-logo.png"
-            width="112"
-            height="28"
-          />
-        </a>
-
-        <a
-          role="button"
-          class="navbar-burger burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarItems"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-
-      <div id="navbarItems" class="navbar-menu">
-        <div class="navbar-end">
-          <a href="#" class="navbar-item">About</a>
-          <a href="#" class="navbar-item">Experience</a>
-          <a href="#" class="navbar-item">Work</a>
-          <a href="#" class="navbar-item">Contact</a>
+    <nav class="navbar" role="navigation" aria-label="main navigation" style="background-color: rgb(10, 25, 47);">
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="/" class="navbar-item">
+            <img
+              src="https://bulma.io/images/bulma-logo.png"
+              width="112"
+              height="28"
+            />
+          </a>
         </div>
-      </div>
+
+        <!-- <div> -->
+          <div class="navbar-end">
+            <g-link to="/posts" class="navbar-item" style="color: beige; margin-right: 2px;">Blog</g-link>
+            <a
+              class="bmc-button navbar-item"
+              target="_blank"
+              href="https://www.buymeacoffee.com/lewiskori"
+              ><g-image
+                src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
+                alt="Buy me a coffee"
+              /><span style="margin-left:15px;font-size:28px !important;"
+                >Buy me a coffee</span
+              ></a
+            >
+          </div>
+        </div>
+      <!-- </div> -->
     </nav>
     <slot />
   </div>
 </template>
+
+<style>
+.bmc-button img {
+  height: 34px !important;
+  width: 35px !important;
+  margin-bottom: 1px !important;
+  box-shadow: none !important;
+  border: none !important;
+  vertical-align: middle !important;
+}
+.bmc-button {
+  padding: 7px 10px 7px 10px !important;
+  line-height: 35px !important;
+  height: 51px !important;
+  min-width: 217px !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  color: #ffffff !important;
+  background-color: #79d6b5 !important;
+  border-radius: 5px !important;
+  border: 1px solid transparent !important;
+  padding: 7px 10px 7px 10px !important;
+  font-size: 22px !important;
+  letter-spacing: 0.6px !important;
+  box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
+  -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+  margin: 0 auto !important;
+  font-family: "Cookie", cursive !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  -o-transition: 0.3s all linear !important;
+  -webkit-transition: 0.3s all linear !important;
+  -moz-transition: 0.3s all linear !important;
+  -ms-transition: 0.3s all linear !important;
+  transition: 0.3s all linear !important;
+}
+.bmc-button:hover,
+.bmc-button:active,
+.bmc-button:focus {
+  -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+  text-decoration: none !important;
+  box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+  opacity: 0.85 !important;
+  color: #ffffff !important;
+}
+a {
+  color: beige;
+}
+</style>
+
+<script>
+export default {
+  metaInfo: {
+    link: [
+      { rel : 'stylesheet' , href: "https://fonts.googleapis.com/css?family=Cookie" }
+    ]
+  }
+}
+</script>

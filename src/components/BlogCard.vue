@@ -34,11 +34,11 @@
         </div>
       </div>
       <footer class="card-footer">
-        <p class="card-footer-item" v-for="tag in post.tags" :key="tag.id">
+        <div class="card-footer-item" v-for="tag in post.tags" :key="tag.id">
           <g-link :to="tag.path">
             <span class="tag is-dark">#{{ tag.title }}</span></g-link
           >
-        </p>
+        </div>
       </footer>
     </div>
   </div>

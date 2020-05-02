@@ -48,7 +48,7 @@ module.exports = {
           "@noxify/gridsome-plugin-remark-embed",
           {
             enabledProviders: ["Youtube", "Twitter", "Gist", "Spotify"],
-            Youtube: { width: "80%", align: "auto" },
+            Youtube: { width: "100%", align: "auto" },
             Twitter: { align: "center", theme: "dark" },
           },
         ],

@@ -52,7 +52,9 @@ export default {
     width: 80%;
   }
 }
-
+a {
+  color: #64ffda;
+}
 .post-title {
   padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
   text-align: center;
@@ -68,6 +70,29 @@ export default {
 
 .fade-enter {
   opacity: 0;
+}
+$black: hsl(200, 40, 10);
+$beige: rgb(238, 238, 220);
+$base-font-size: 1.2em;
+$base-line-height: 1.2em;
+blockquote {
+  position: relative;
+  padding-left: 1em;
+  border-left: 0.2em solid lighten($black, 40%);
+  font-family: 'Roboto', serif;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: 100;
+  background-color: rgb(10, 25, 47) !important;
+  color: $beige;
+  &:before, &:after {
+      content: '\201C';
+      font-family: 'Sanchez';
+      color: lighten($black, 40%);
+   }
+   &:after {
+      content: '\201D';
+   }
 }
 </style>
 

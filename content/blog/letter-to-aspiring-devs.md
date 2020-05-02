@@ -2,6 +2,7 @@
 title: Letter to aspiring software developers
 author: Lewis Kori
 tags: ["career", "devlive", "productivity"]
+cover_image: https://res.cloudinary.com/lewiskori/image/upload/v1588395640/stars_x1sbfn.jpg
 dateCreated: 2020-04-18
 dateModified: 2019-06-22
 ---
@@ -35,7 +36,7 @@ If you'd like to see how hobbies can influence your life check out my previous p
 
 To conclude on the same, I'll leave you with this awesome quote by Albert Einstein.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;A calm and modest life brings more happiness than the pursuit of success combined with constant restlessness.&quot; - theory of happiness<br>αlвerт eιɴѕтeιɴ</p>&mdash; Lewis Kori (@lewis_kihiu) <a href="https://twitter.com/lewis_kihiu/status/1251042711945150465?ref_src=twsrc%5Etfw">April 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<https://twitter.com/lewis_kihiu/status/1251042711945150465?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1251042711945150465&ref_url=http%3A%2F%2Flocalhost%3A8080%2Fblog%2Fletter-to-aspiring-software-developers%2F>
 
 Thanks for reading this post.
 One young dev to another 🤗.

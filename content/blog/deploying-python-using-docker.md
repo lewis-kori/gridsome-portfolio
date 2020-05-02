@@ -74,7 +74,7 @@ the commands are the same as for python only specific to nginx
 in this case we use the nginx base image, delete the default configuration file that ships with nginx and replace it with our custom config file.
 which might look something like this
 
-```conf
+```python
 upstream my_site {
     server web:8080;
 }

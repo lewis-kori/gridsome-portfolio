@@ -13,6 +13,8 @@ export default function(Vue, { router, head, isClient }) {
   Vue.use(vueSmoothScroll)
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
+  // head.htmlAttrs = { class: 'has-navbar-fixed-top' }
+
   head.link.push({
     rel: "stylesheet",
     href: "//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css",

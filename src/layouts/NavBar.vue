@@ -1,6 +1,11 @@
 <template>
   <div>
-    <nav class="navbar" role="navigation" aria-label="main navigation" style="background-color: rgb(10, 25, 47);">
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+      style="background-color: rgb(10, 25, 47);"
+    >
       <div class="container">
         <div class="navbar-brand">
           <a href="/" class="navbar-item">
@@ -10,24 +15,46 @@
               height="28"
             />
           </a>
+
+          <g-link
+            to="/posts"
+            class="navbar-item is-hidden-desktop is-hidden-widescreen"
+            style="color: beige; margin-right: 2px; margin-left: 2rem;"
+            >Blog</g-link
+          >
+
+          <a
+            class="bmc-button navbar-item is-hidden-desktop is-hidden-widescreen ko-fi"
+            target="_blank"
+            href="https://www.buymeacoffee.com/lewiskori"
+            ><g-image
+              src="https://res.cloudinary.com/lewiskori/image/upload/v1588410336/ko-fi-mobile_c9zpfl.jpg"
+              alt="Buy me a coffee"
+          /></a>
         </div>
 
         <!-- <div> -->
-          <div class="navbar-end">
-            <g-link to="/posts" class="navbar-item" style="color: beige; margin-right: 2px;">Blog</g-link>
-            <a
-              class="bmc-button navbar-item"
-              target="_blank"
-              href="https://www.buymeacoffee.com/lewiskori"
-              ><g-image
-                src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
-                alt="Buy me a coffee"
-              /><span style="margin-left:15px;font-size:28px !important;"
-                >Buy me a coffee</span
-              ></a
-            >
-          </div>
+        <div class="navbar-end">
+          <g-link
+            to="/posts"
+            class="navbar-item is-hidden-mobile"
+            style="color: beige; margin-right: 2px;"
+            >Blog</g-link
+          >
+          <a
+            class="bmc-button navbar-item is-hidden-mobile"
+            target="_blank"
+            href="https://www.buymeacoffee.com/lewiskori"
+            ><g-image
+              @mouseover="isHovering = true"
+              @mouseout="isHovering = false"
+              :class="{'animated rubberBand slow': isHovering }"
+              src="https://res.cloudinary.com/lewiskori/image/upload/v1588410336/ko-fi-wide_wqx5sg.jpg"
+              alt="Buy me a coffee"
+            />
+          </a>
         </div>
+      </div>
       <!-- </div> -->
     </nav>
     <slot />
@@ -35,48 +62,8 @@
 </template>
 
 <style>
-.bmc-button img {
-  height: 34px !important;
-  width: 35px !important;
-  margin-bottom: 1px !important;
-  box-shadow: none !important;
-  border: none !important;
-  vertical-align: middle !important;
-}
-.bmc-button {
-  padding: 7px 10px 7px 10px !important;
-  line-height: 35px !important;
-  height: 51px !important;
-  min-width: 217px !important;
-  text-decoration: none !important;
-  display: inline-flex !important;
-  color: #ffffff !important;
-  background-color: #79d6b5 !important;
-  border-radius: 5px !important;
-  border: 1px solid transparent !important;
-  padding: 7px 10px 7px 10px !important;
-  font-size: 22px !important;
-  letter-spacing: 0.6px !important;
-  box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
-  -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
-  margin: 0 auto !important;
-  font-family: "Cookie", cursive !important;
-  -webkit-box-sizing: border-box !important;
-  box-sizing: border-box !important;
-  -o-transition: 0.3s all linear !important;
-  -webkit-transition: 0.3s all linear !important;
-  -moz-transition: 0.3s all linear !important;
-  -ms-transition: 0.3s all linear !important;
-  transition: 0.3s all linear !important;
-}
-.bmc-button:hover,
-.bmc-button:active,
-.bmc-button:focus {
-  -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
-  text-decoration: none !important;
-  box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
-  opacity: 0.85 !important;
-  color: #ffffff !important;
+.ko-fi {
+  margin-left: 20% !important;
 }
 a {
   color: beige;
@@ -85,10 +72,18 @@ a {
 
 <script>
 export default {
+  data() {
+    return {
+      isHovering: false
+    }
+  },
   metaInfo: {
     link: [
-      { rel : 'stylesheet' , href: "https://fonts.googleapis.com/css?family=Cookie" }
-    ]
-  }
-}
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css?family=Cookie",
+      },
+    ],
+  },
+};
 </script>

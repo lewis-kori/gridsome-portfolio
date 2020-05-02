@@ -33,12 +33,18 @@
 
             <div id="navbarItems" class="navbar-menu">
               <div class="navbar-end">
-                <a href="#about" v-smooth-scroll="scroll" class="navbar-item">About</a>
-                <a href="#blog" v-smooth-scroll="scroll" class="navbar-item">Blog</a>
+                <a href="#about" v-smooth-scroll="scroll" class="navbar-item"
+                  >About</a
+                >
+                <a href="#blog" v-smooth-scroll="scroll" class="navbar-item"
+                  >Blog</a
+                >
                 <a href="#projects" v-smooth-scroll="scroll" class="navbar-item"
                   >Projects</a
                 >
-                <a href="#contact" v-smooth-scroll="scroll" class="navbar-item">Contact</a>
+                <a href="#contact" v-smooth-scroll="scroll" class="navbar-item"
+                  >Contact</a
+                >
               </div>
             </div>
           </nav>
@@ -64,7 +70,7 @@
               </aside>
             </div>
             <div class="column">
-              <h4 class="fadeInDown animated slow">Hi, my name is</h4>
+              <h4 class="animated fadeInDown slow">Hi, my name is</h4>
               <div class="animated fadeInUp slow">
                 <h1 class="title" style="color: beige;">Lewis Kori.</h1>
                 <h1 class="title" style="color: darkgrey;">

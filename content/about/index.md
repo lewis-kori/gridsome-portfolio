@@ -1,6 +1,6 @@
 ---
 title: About me
-avatar: https://lewiskori.com/static/my_portfolio/img/banner.jpg
+avatar: https://res.cloudinary.com/lewiskori/image/upload/v1589042134/me_twut2m.jpg
 skills:
     - python
     - Javascript (ES6)

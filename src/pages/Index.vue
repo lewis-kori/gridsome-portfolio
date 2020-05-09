@@ -24,6 +24,8 @@
                 aria-label="menu"
                 aria-expanded="false"
                 data-target="navbarItems"
+                @click="showNav = !showNav"
+                :class="{ 'is-active': showNav }"
               >
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -31,7 +33,11 @@
               </a>
             </div>
 
-            <div id="navbarItems" class="navbar-menu">
+            <div
+              id="navbarItems"
+              class="navbar-menu"
+              :class="{ 'is-active': showNav }"
+            >
               <div class="navbar-end">
                 <a href="#about" v-smooth-scroll="scroll" class="navbar-item"
                   >About</a
@@ -218,6 +224,7 @@ export default {
   data() {
     return {
       scroll: { duration: 2000, offset: -50, updateHistory: false },
+      showNav: false,
     };
   },
   computed: {

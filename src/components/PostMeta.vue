@@ -15,7 +15,7 @@ export default {
       meta: [
         { name: "description", content: this.post.description },
 
-                // Some Open Graph Tags
+        // Some Open Graph Tags
         { property: "og:title", content: this.post.title },
         { property: "og:description", content: this.post.description },
         { property: "og:image", content: this.post.cover_image },
@@ -45,7 +45,6 @@ export default {
 <static-query>
 query {
   metadata {
-    siteName
     siteUrl
   }
 }

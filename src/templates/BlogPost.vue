@@ -108,6 +108,7 @@ body h2::after {
       content
       description
       cover_image 
+      path
       dateCreated (format: "D. MMMM YYYY")
     }
   }

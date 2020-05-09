@@ -14,6 +14,15 @@ export default {
     return {
       meta: [
         { name: "description", content: this.post.description },
+
+                // Some Open Graph Tags
+        { property: "og:title", content: this.post.title },
+        { property: "og:description", content: this.post.description },
+        { property: "og:image", content: this.post.cover_image },
+        {
+          property: "og:url",
+          content: this.$static.metadata.siteUrl + this.post.path
+        },
         // Some Twitter Cards Tags
         { name: "twitter:card", content: "summary" },
         { name: "twitter:creator", content: "@lewis_kihiu" },
@@ -23,6 +32,9 @@ export default {
       ],
     };
   },
+  created() {
+    console.log(this.$static.metadata.siteUrl)
+  }
 };
 </script>
 
@@ -32,3 +44,12 @@ export default {
   opacity: 0.8;
 }
 </style>
+
+<static-query>
+query {
+  metadata {
+    siteName
+    siteUrl
+  }
+}
+</static-query>

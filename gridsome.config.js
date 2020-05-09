@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: "Lewis Kori",
+  siteUrl: "https://lewiskori.netlify.app",
   titleTemplate: "Lewis Kori | %s",
   plugins: [
     {

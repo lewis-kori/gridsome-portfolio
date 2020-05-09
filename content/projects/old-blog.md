@@ -1,6 +1,6 @@
 ---
 title: my old blog
-tech: ["django","html","css","django","html","css"]
+tech: ["django","html","css"]
 cover_image: ./images/stars.jpg
 github_link: https://github.com/lewis-kori/nuxt-vue-django-auth
 external_link: https://lewiskori.com/

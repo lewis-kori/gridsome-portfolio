@@ -28,7 +28,7 @@
             target="_blank"
             href="https://www.buymeacoffee.com/lewiskori"
             ><g-image
-              src="https://res.cloudinary.com/lewiskori/image/upload/v1588410336/ko-fi-mobile_c9zpfl.jpg"
+              src="https://img.buymeacoffee.com/api/?name=lewis+kori&size=150&bg-image=bmc"
               alt="Buy me a coffee"
           /></a>
         </div>
@@ -49,7 +49,7 @@
               @mouseover="isHovering = true"
               @mouseout="isHovering = false"
               :class="{'animated rubberBand slow': isHovering }"
-              src="https://res.cloudinary.com/lewiskori/image/upload/v1588410336/ko-fi-wide_wqx5sg.jpg"
+              src="https://cdn.buymeacoffee.com/buttons/default-green.png"
               alt="Buy me a coffee"
             />
           </a>

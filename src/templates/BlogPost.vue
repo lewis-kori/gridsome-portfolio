@@ -1,25 +1,25 @@
 <template>
   <NavBar>
     <transition name="fade" appear>
-    <section class="section">
-      <div class="container">
-        <div class="content" style="color:white;">
-          <div class="post-title">
-            <h2 class="title is-medium">{{ $page.post.title }}</h2>
-            <PostMeta :post="$page.post" />
-          </div>
+      <section class="section">
+        <div class="container">
+          <div class="content" style="color:white;">
+            <div class="post-title">
+              <h2 class="title is-medium">{{ $page.post.title }}</h2>
+              <PostMeta :post="$page.post" />
+            </div>
 
-          <div class="post__header">
-            <g-image
-              :salt="$page.post.title"
-              v-if="$page.post.cover_image"
-              :src="$page.post.cover_image"
-            />
+            <div class="post__header">
+              <g-image
+                :salt="$page.post.title"
+                v-if="$page.post.cover_image"
+                :src="$page.post.cover_image"
+              />
+            </div>
+            <div class="blog__content" v-html="$page.post.content"></div>
           </div>
-          <div class="blog__content" v-html="$page.post.content"></div>
         </div>
-      </div>
-    </section>
+      </section>
     </transition>
   </NavBar>
 </template>
@@ -42,12 +42,12 @@ export default {
 </script>
 
 <style lang="scss">
-@media screen and (min-width: 0px) and (max-width: 1000px){
+@media screen and (min-width: 0px) and (max-width: 1000px) {
   .container {
     width: 100%;
   }
 }
-@media screen and (min-width: 1001px) and (max-width: 2048px){
+@media screen and (min-width: 1001px) and (max-width: 2048px) {
   .container {
     width: 80%;
   }
@@ -79,20 +79,24 @@ blockquote {
   position: relative;
   padding-left: 1em;
   border-left: 0.2em solid lighten($black, 40%);
-  font-family: 'Roboto', serif;
+  font-family: "Roboto", serif;
   font-size: $base-font-size;
   line-height: $base-line-height;
   font-weight: 100;
   background-color: rgb(10, 25, 47) !important;
   color: $beige;
-  &:before, &:after {
-      content: '\201C';
-      font-family: 'Sanchez';
-      color: lighten($black, 40%);
-   }
-   &:after {
-      content: '\201D';
-   }
+  &:before,
+  &:after {
+    content: "\201C";
+    font-family: "Sanchez";
+    color: lighten($black, 40%);
+  }
+  &:after {
+    content: "\201D";
+  }
+}
+body h2::after {
+  content: none;
 }
 </style>
 

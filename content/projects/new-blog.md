@@ -1,6 +1,6 @@
 ---
 title: my new blog
-tech: ["django","html","css","django","html","css"]
+tech: ["django","html","css",]
 cover_image: ./images/weights.jpg
 github_link: https://github.com/lewis-kori/nuxt-vue-django-auth
 external_link: https://gridsome.org/

@@ -8,7 +8,7 @@
             <h2 class="title">Blog Posts</h2>
           </div>
         </div>
-        <div class="container is-fluid">
+        <div class="container">
           <div class="columns is-multiline">
             <BlogCard
               v-for="edge in $page.blogs.edges"

@@ -277,6 +277,7 @@ export default {
         title
         avatar
         content
+        skills
       }
     }
 }

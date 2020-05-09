@@ -1,13 +1,13 @@
 ---
 title: About me
 avatar: https://lewiskori.com/static/my_portfolio/img/banner.jpg
-skill:
+skills:
     - python
-    - django
-    - docker & kubernetes
     - Javascript (ES6)
-    - HTML & CSS
+    - django
     - Vue
+    - docker & kubernetes
+    - HTML & CSS
 ---
 Hi there!
 
@@ -15,4 +15,4 @@ This site is a place for me to showcase some of my projects. From small learning
 
 In terms of non-computer hobbies I like working out at the gym and going on runs. I also read a lot. In general I found what makes me the happiest is building stuff. So I try and optimize for that.
 
-So, have any cool projects you’d like us to collaborate on? Like my blog posts? Want to say hi? Just drop me a message and i'll try to respond as soon as I can. You can also reach out to me on any of the social links within this site
+Here are a few technologies I've worked with:

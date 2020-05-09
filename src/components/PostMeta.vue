@@ -32,9 +32,6 @@ export default {
       ],
     };
   },
-  created() {
-    console.log(this.$static.metadata.siteUrl)
-  }
 };
 </script>
 

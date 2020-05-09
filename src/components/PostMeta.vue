@@ -13,6 +13,7 @@ export default {
   metaInfo() {
     return {
       meta: [
+        { name: "description", content: this.post.description },
         // Some Twitter Cards Tags
         { name: "twitter:card", content: "summary" },
         { name: "twitter:site", content: "@lewis_kihiu" },

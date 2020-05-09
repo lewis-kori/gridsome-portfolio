@@ -16,7 +16,7 @@ export default {
         { name: "description", content: this.post.description },
         // Some Twitter Cards Tags
         { name: "twitter:card", content: "summary" },
-        { name: "twitter:site", content: "@lewis_kihiu" },
+        { name: "twitter:creator", content: "@lewis_kihiu" },
         { name: "twitter:title", content: this.post.title },
         { name: "twitter:description", content: this.post.description },
         { name: "twitter:image", content: this.post.cover_image },

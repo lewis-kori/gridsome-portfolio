@@ -106,6 +106,7 @@ body h2::after {
       title
       author
       content
+      description
       cover_image 
       dateCreated (format: "D. MMMM YYYY")
     }

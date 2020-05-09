@@ -2,8 +2,8 @@
 title: How to clear screen in python terminal
 author: Lewis Kori
 tags: ["python", "todayilearned", "beginners"]
+description: Quick python programming tips
 dateCreated: 2020-04-09
-dateModified: 2019-06-22
 ---
 Originally posted on my [blog](https://lewiskori.com/post/how-to-clear-screen-in-python-terminal).
 

@@ -2,6 +2,7 @@
 title: List of resources for junior developers
 author: Lewis Kori
 tags: ["career","resources","beginners"]
+description: Some resources to aspiring software developers
 dateCreated: 2019-08-29
 ---
 

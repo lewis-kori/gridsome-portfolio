@@ -28,17 +28,22 @@
         <div class="content">
           <div class="tile">
             <g-link :to="post.path" style="color: white;">
-              <div class="blog__content" v-html="shortenText(post.content)"></div>
+              <div
+                class="blog__content"
+                v-html="shortenText(post.content)"
+              ></div>
             </g-link>
           </div>
         </div>
       </div>
       <footer class="card-footer">
-        <div class="card-footer-item" v-for="tag in post.tags" :key="tag.id">
-          <g-link :to="tag.path">
-            <span class="tag is-dark">#{{ tag.title }}</span></g-link
-          >
-        </div>
+        <ul>
+          <li class="card-footer-item" v-for="tag in post.tags" :key="tag.id">
+            <g-link :to="tag.path">
+              <span class="tag is-dark">#{{ tag.title }}</span></g-link
+            >
+          </li>
+        </ul>
       </footer>
     </div>
   </div>
@@ -69,5 +74,12 @@ export default {
 
 .card-header-title h3::first-letter {
   color: rgb(100, 255, 218);
+}
+li {
+  display: inline !important;
+}
+ul {
+  list-style: none;
+  margin-bottom: 0.7rem !important;
 }
 </style>

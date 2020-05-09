@@ -41,8 +41,9 @@ query {
   edges {
     node {
       id
-      content
       title
+      content
+      description
       path
       tags {
         id

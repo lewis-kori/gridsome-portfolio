@@ -48,7 +48,7 @@
             ><g-image
               @mouseover="isHovering = true"
               @mouseout="isHovering = false"
-              :class="{'animated rubberBand slow': isHovering }"
+              :class="{ 'animated rubberBand slow': isHovering }"
               src="https://cdn.buymeacoffee.com/buttons/default-green.png"
               alt="Buy me a coffee"
             />
@@ -60,6 +60,7 @@
     <slot />
   </div>
 </template>
+
 
 <style>
 .ko-fi {
@@ -74,8 +75,8 @@ a {
 export default {
   data() {
     return {
-      isHovering: false
-    }
+      isHovering: false,
+    };
   },
   metaInfo: {
     link: [

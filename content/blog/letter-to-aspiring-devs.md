@@ -3,8 +3,8 @@ title: Letter to aspiring software developers
 author: Lewis Kori
 tags: ["career", "devlive", "productivity"]
 cover_image: https://res.cloudinary.com/lewiskori/image/upload/v1588395640/stars_x1sbfn.jpg
+description: Some tips to aspiring software developers on how to navigate the industry and what to expect
 dateCreated: 2020-04-18
-dateModified: 2019-06-22
 ---
 Over the last few months, I've been asking myself what it means to be a great developer. Having looked at countless posts and from my own life experiences. There're a few myths I've come to debunk.
 

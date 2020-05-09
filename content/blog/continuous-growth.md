@@ -2,6 +2,7 @@
 title: Continuous improvement/continuous growth as a developer
 author: Lewis Kori
 tags: ["career","productivity","growth"]
+description: continuos growth/ continuos development
 dateCreated: 2019-07-28
 ---
 

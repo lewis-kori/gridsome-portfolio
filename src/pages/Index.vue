@@ -166,7 +166,7 @@
 
     <!-- contact section -->
 
-    <section class="section" style="margin-top: 2rem;">
+    <section class="section" style="margin-top: 1.2rem;">
       <div class="columns is-mobile is-centered">
         <div id="contact" class="column is-half has-text-centered">
           <h2 class="title">Contact Me</h2>

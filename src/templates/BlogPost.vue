@@ -25,6 +25,7 @@
             ></vue-disqus>
           </div>
         </div>
+        <Footer/>
       </section>
     </transition>
   </NavBar>
@@ -33,11 +34,13 @@
 <script>
 import NavBar from "~/layouts/NavBar";
 import PostMeta from "~/components/PostMeta";
+import Footer from "~/components/Footer";
 
 export default {
   components: {
     NavBar,
     PostMeta,
+    Footer
   },
   metaInfo() {
     return {
@@ -116,6 +119,10 @@ body h2::after {
       cover_image 
       path
       dateCreated (format: "D. MMMM YYYY")
+      series {
+        title
+        path
+      }
     }
   }
 </page-query>

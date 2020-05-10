@@ -19,6 +19,10 @@ module.exports = {
             typeName: "Tag",
             create: true,
           },
+          series: {
+            typeName: "Series",
+            create: true
+          }
         },
       },
     },
@@ -59,6 +63,7 @@ module.exports = {
 
   templates: {
     BlogPost: "/blog/:title",
-    Tag: "/tag/:title"
+    Tag: "/tag/:title",
+    Series: "/series/:title",
   },
 };

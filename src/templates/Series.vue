@@ -4,13 +4,13 @@
       <section class="section" style="margin-top: 1rem;">
         <div class="columns is-mobile is-centered">
           <div id="blog" class="column is-half has-text-centered">
-            <h2 class="title">{{ $page.tag.title }}</h2>
+            <h2 class="title">{{ $page.series.title }} series</h2>
           </div>
         </div>
         <div class="container is-fluid">
           <div class="columns is-multiline">
             <BlogCard
-              v-for="edge in $page.tag.belongsTo.edges"
+              v-for="edge in $page.series.belongsTo.edges"
               :key="edge.node.id"
               :post="edge.node"
             />
@@ -28,13 +28,13 @@ export default {
   components: {
     NavBar,
     BlogCard,
-  }
+  },
 };
 </script>
 
 <page-query>
 query ($id: ID!) {
-  tag(id: $id) {
+  series(id: $id) {
     title
     belongsTo {
       edges {
@@ -45,8 +45,8 @@ query ($id: ID!) {
             path
             content
             tags {
-              title
-              path
+                title
+                path
             }
           }
         }

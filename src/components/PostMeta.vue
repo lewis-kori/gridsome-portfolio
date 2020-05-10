@@ -1,8 +1,8 @@
 <template>
   <div class="post-meta">
     Posted {{ post.dateCreated }}.
-    <template v-if="post.timeToRead">
-      <strong>{{ post.timeToRead }} min read.</strong>
+    <template v-if="post.series">
+      <g-link :to="post.series.path" class="tag is-dark">{{ post.series.title }} series.</g-link>
     </template>
   </div>
 </template>

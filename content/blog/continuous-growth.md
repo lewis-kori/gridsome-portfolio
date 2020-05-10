@@ -3,6 +3,7 @@ title: Continuous improvement/continuous growth as a developer
 author: Lewis Kori
 tags: ["career","productivity","growth"]
 description: continuos growth/ continuos development
+series: soft skills
 dateCreated: 2019-07-28
 ---
 
@@ -10,6 +11,7 @@ the story was originally posted on my personal [website](https://lewiskori.com/p
 This post has been a long time coming and it’s very ironic I made a decision to writing more this [year](https://lewiskori.com/post/staying-true-to-yourself-in-2019), but oh well, better late than never they say.
 
 I started programming well over two years ago. It all began as a casual look at some C language tutorial one afternoon. At the time it all seemed so foreign to me and to be honest kinda challenging. Nonetheless I continued putting in the hours whenever i had free time and eventually managed to build a couple of projects along the various tutorials. The journey hasn’t been easy as some of you programmers reading this post can attest. Along the way I’ve picked up many lessons(some learned the hard way), but all eventually building me to not only be a good software engineer, but also a better human being. This are some of the precious nuggets picked up along the journey.
+
 ### 1. GETTING STARTED
 
 The number one question that new programmers ask themselves is

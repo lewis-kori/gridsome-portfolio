@@ -49,7 +49,6 @@ query {
       description
       path
       tags {
-        id
         path
         title
       }

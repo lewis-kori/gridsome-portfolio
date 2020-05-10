@@ -4,6 +4,7 @@ author: Lewis Kori
 tags: ["career","productivity","psychology"]
 cover_image: https://res.cloudinary.com/practicaldev/image/fetch/s--u_69avF7--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--GjyFBfuC--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/e9lyg282f6wxcu8rmd3y.jpg
 description: How keeping fit can positively influence you and grow your career
+series: soft skills
 dateCreated: 2019-08-14
 ---
 

@@ -39,16 +39,16 @@
               :class="{ 'is-active': showNav }"
             >
               <div class="navbar-end">
-                <a href="#about" v-smooth-scroll="scroll" class="navbar-item"
+                <a href="#about" @click="showNav = !showNav" v-smooth-scroll="scroll" class="navbar-item"
                   >About</a
                 >
-                <a href="#blog" v-smooth-scroll="scroll" class="navbar-item"
+                <a href="#blog" @click="showNav = !showNav" v-smooth-scroll="scroll" class="navbar-item"
                   >Blog</a
                 >
-                <a href="#projects" v-smooth-scroll="scroll" class="navbar-item"
+                <a href="#projects" @click="showNav = !showNav" v-smooth-scroll="scroll" class="navbar-item"
                   >Projects</a
                 >
-                <a href="#contact" v-smooth-scroll="scroll" class="navbar-item"
+                <a href="#contact" @click="showNav = !showNav" v-smooth-scroll="scroll" class="navbar-item"
                   >Contact</a
                 >
               </div>
@@ -62,16 +62,32 @@
             <div class="column is-1 socials-hero">
               <aside class="menu" style="margin-top: 11rem;">
                 <ul class="menu-list">
-                  <span class="icon"><a href="https://twitter.com/lewis_kihiu" target="__blank"><i class="fab fa-twitter"></i></a></span>
+                  <span class="icon"
+                    ><a href="https://twitter.com/lewis_kihiu" target="__blank"
+                      ><i class="fab fa-twitter"></i></a
+                  ></span>
                 </ul>
                 <ul class="menu-list">
-                  <span class="icon"><a href="https://www.linkedin.com/in/lewis-kihiu-aba63011b" target="__blank"><i class="fab fa-linkedin-in"></i></a></span>
+                  <span class="icon"
+                    ><a
+                      href="https://www.linkedin.com/in/lewis-kihiu-aba63011b"
+                      target="__blank"
+                      ><i class="fab fa-linkedin-in"></i></a
+                  ></span>
                 </ul>
                 <ul class="menu-list">
-                  <span class="icon"><a href="https://www.facebook.com/lkori?_rdc=1&_rdr" target="__blank"><i class="fab fa-facebook-f"></i></a></span>
+                  <span class="icon"
+                    ><a
+                      href="https://www.facebook.com/lkori?_rdc=1&_rdr"
+                      target="__blank"
+                      ><i class="fab fa-facebook-f"></i></a
+                  ></span>
                 </ul>
                 <ul class="menu-list">
-                  <span class="icon"><a href="https://github.com/lewis-kori" target="__blank"><i class="fab fa-github-alt"></i></a></span>
+                  <span class="icon"
+                    ><a href="https://github.com/lewis-kori" target="__blank"
+                      ><i class="fab fa-github-alt"></i></a
+                  ></span>
                 </ul>
               </aside>
             </div>
@@ -167,6 +183,12 @@
           </ul>
         </div>
       </div>
+
+      <div class="columns is-mobile is-centered">
+        <div id="archive" class="column is-half has-text-centered">
+          <g-link to="/projects/" style="color:#64ffda;">View the archive</g-link>
+        </div>
+      </div>
     </section>
     <!-- end project -->
 
@@ -182,7 +204,7 @@
       <div class="columns is-centered">
         <div class="column is-half has-text-centered">
           <p>
-            my inbox is always open. Whether you have a question or just want to
+            My inbox is always open. Whether you have a question or just want to
             say hi, I'll try my best to get back to you!
           </p>
         </div>

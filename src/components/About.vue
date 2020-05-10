@@ -55,4 +55,7 @@ li::before {
   line-height: 12px;
   margin: 0.5rem;
 }
+a {
+  color: #64ffda;
+}
 </style>

@@ -10,11 +10,21 @@ body {
     background-color: rgb(10, 25, 47);
 }
 
-body h2, h4 {
+body h2,
+h4 {
     color: beige !important;
     position: relative;
 }
-body h3, h5, h6 {
+.hero-body .menu a {
+    color: rgb(136, 146, 176) !important;
+}
+.hero-body .menu a:hover {
+    color: rgb(100, 255, 218) !important;
+    background: none !important;
+}
+body h3,
+h5,
+h6 {
     color: beige !important;
 }
 
@@ -120,38 +130,45 @@ body a:hover {
     background-color: rgb(10, 25, 47) !important;
 }
 
-@media screen and (min-width: 0px) and (max-width:1000px) {
+@media screen and (min-width: 0px) and (max-width:576px) {
     .socials-hero {
         display: none !important;
     }
-}
 
-@media screen and (min-width: 1001px) and (max-width:2048px) {
-    .socials-hero {
-        display: block;
-    }
-}
-
-@media screen and (min-width: 0px) and (max-width:1000px) {
     .socials-footer {
         display: block !important;
     }
 }
 
-@media screen and (min-width: 1001px) and (max-width:2048px) {
-    .socials-footer {
+@media screen and (min-width: 577px) and (max-width:768px) {
+    .socials-hero {
         display: none !important;
     }
-    body h2::after {
-        content: "";
-        border-bottom: 2px solid rgb(48, 60, 85);
-        height: 0.2em;
-        padding: 0 5rem;
-        margin-left: 20px;
-        bottom: 40%;
-        position: absolute;
+
+    .socials-footer {
+        display: block !important;
     }
 }
+
+.socials-hero {
+    display: block;
+}
+
+
+.socials-footer {
+    display: none;
+}
+
+body h2::after {
+    content: "";
+    border-bottom: 2px solid rgb(48, 60, 85);
+    height: 0.2em;
+    padding: 0 5rem;
+    margin-left: 20px;
+    bottom: 40%;
+    position: absolute;
+}
+
 
 .pic {
     position: relative;
@@ -253,6 +270,7 @@ li:nth-child(even) .projects-picture {
     height: 100%;
     opacity: 0.4;
 }
+
 li:nth-child(even) .projects-picture:hover {
     opacity: 1;
 }
@@ -275,6 +293,17 @@ li:nth-child(odd) .projects-picture {
     height: 100%;
     opacity: 0.4;
 }
+
 li:nth-child(odd) .projects-picture:hover {
     opacity: 1;
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar-menu {
+        background-color: rgb(23, 42, 69) !important;
+    }
+
+    .navbar-menu .navbar-item {
+        color: beige !important;
+    }
 }

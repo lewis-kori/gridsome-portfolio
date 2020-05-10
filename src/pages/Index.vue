@@ -62,16 +62,16 @@
             <div class="column is-1 socials-hero">
               <aside class="menu" style="margin-top: 11rem;">
                 <ul class="menu-list">
-                  <span class="icon"><i class="fab fa-facebook-f"></i></span>
+                  <span class="icon"><a href="https://twitter.com/lewis_kihiu" target="__blank"><i class="fab fa-twitter"></i></a></span>
                 </ul>
                 <ul class="menu-list">
-                  <span class="icon"><i class="fab fa-linkedin-in"></i></span>
+                  <span class="icon"><a href="https://www.linkedin.com/in/lewis-kihiu-aba63011b" target="__blank"><i class="fab fa-linkedin-in"></i></a></span>
                 </ul>
                 <ul class="menu-list">
-                  <span class="icon"><i class="fab fa-twitter"></i></span>
+                  <span class="icon"><a href="https://www.facebook.com/lkori?_rdc=1&_rdr" target="__blank"><i class="fab fa-facebook-f"></i></a></span>
                 </ul>
                 <ul class="menu-list">
-                  <span class="icon"><i class="fab fa-github-alt"></i></span>
+                  <span class="icon"><a href="https://github.com/lewis-kori" target="__blank"><i class="fab fa-github-alt"></i></a></span>
                 </ul>
               </aside>
             </div>
@@ -154,7 +154,7 @@
     <section class="section">
       <div class="columns is-mobile is-centered">
         <div id="projects" class="column is-half has-text-centered">
-          <h2 class="title">Projects</h2>
+          <h2 class="title">Featured Projects</h2>
         </div>
       </div>
 
@@ -263,7 +263,7 @@ export default {
         }
       }
     }
-    projects: allProjects {
+    projects: allProjects (filter: { featured: { eq: true }}){
       edges {
         node {
           id
@@ -274,6 +274,7 @@ export default {
           cover_image (width: 640, height: 360, blur: 10)
           content
           path
+          featured
         }
       }
     }

@@ -4,13 +4,16 @@
 import DefaultLayout from "~/layouts/Default.vue";
 // import Buefy
 import Buefy from "buefy";
-import vueSmoothScroll from 'vue2-smooth-scroll'
+import vueSmoothScroll from "vue2-smooth-scroll";
+import VueDisqus from "vue-disqus";
+
 import "buefy/dist/buefy.css";
 import "~/assets/css/custom.css";
 
 export default function(Vue, { router, head, isClient }) {
   Vue.use(Buefy);
-  Vue.use(vueSmoothScroll)
+  Vue.use(vueSmoothScroll);
+  Vue.use(VueDisqus)
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
   // head.htmlAttrs = { class: 'has-navbar-fixed-top' }
@@ -29,7 +32,8 @@ export default function(Vue, { router, head, isClient }) {
     body: true,
   });
   head.script.push({
-    src: "//cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js",
+    src:
+      "//cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js",
     body: true,
   });
   head.script.push({

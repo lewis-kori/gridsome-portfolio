@@ -20,16 +20,19 @@
       </section>
       </transition>
     </NavBar>
+    <section><Footer/></section>
   </div>
 </template>
 
 <script>
 import NavBar from "~/layouts/NavBar";
 import BlogCard from "~/components/BlogCard";
+import Footer from "~/components/Footer";
 export default {
   components: {
     NavBar,
-    BlogCard
+    BlogCard,
+    Footer
   },
 };
 </script>

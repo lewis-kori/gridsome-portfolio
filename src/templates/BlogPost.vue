@@ -18,6 +18,12 @@
             </div>
             <div class="blog__content" v-html="$page.post.content"></div>
           </div>
+          <div class="comments">
+            <vue-disqus
+              shortname="lewiskori-com"
+              :identifier="$page.title"
+            ></vue-disqus>
+          </div>
         </div>
       </section>
     </transition>

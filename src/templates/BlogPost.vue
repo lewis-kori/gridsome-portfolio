@@ -11,7 +11,7 @@
 
             <div class="post__header">
               <g-image
-                :salt="$page.post.title"
+                :alt="$page.post.title"
                 v-if="$page.post.cover_image"
                 :src="$page.post.cover_image"
               />

@@ -37,7 +37,7 @@
             <div class="projects-picture">
               <figure class="image is-640x360">
                 <g-link :to="project.github_link">
-                  <g-image :src="project.cover_image" alt="" />
+                  <g-image :src="project.cover_image" :alt="project.title" />
                 </g-link>
               </figure>
             </div>

@@ -39,16 +39,32 @@
               :class="{ 'is-active': showNav }"
             >
               <div class="navbar-end">
-                <a href="#about" @click="showNav = !showNav" v-smooth-scroll="scroll" class="navbar-item"
+                <a
+                  href="#about"
+                  @click="showNav = !showNav"
+                  v-smooth-scroll="scroll"
+                  class="navbar-item"
                   >About</a
                 >
-                <a href="#blog" @click="showNav = !showNav" v-smooth-scroll="scroll" class="navbar-item"
+                <a
+                  href="#blog"
+                  @click="showNav = !showNav"
+                  v-smooth-scroll="scroll"
+                  class="navbar-item"
                   >Blog</a
                 >
-                <a href="#projects" @click="showNav = !showNav" v-smooth-scroll="scroll" class="navbar-item"
+                <a
+                  href="#projects"
+                  @click="showNav = !showNav"
+                  v-smooth-scroll="scroll"
+                  class="navbar-item"
                   >Projects</a
                 >
-                <a href="#contact" @click="showNav = !showNav" v-smooth-scroll="scroll" class="navbar-item"
+                <a
+                  href="#contact"
+                  @click="showNav = !showNav"
+                  v-smooth-scroll="scroll"
+                  class="navbar-item"
                   >Contact</a
                 >
               </div>
@@ -186,7 +202,9 @@
 
       <div class="columns is-mobile is-centered">
         <div id="archive" class="column is-half has-text-centered">
-          <g-link to="/projects/" style="color:#64ffda;">View the archive</g-link>
+          <g-link to="/projects/" style="color:#64ffda;"
+            >View the archive</g-link
+          >
         </div>
       </div>
     </section>
@@ -257,6 +275,7 @@ export default {
   metaInfo() {
     return {
       title: "Software Engineer",
+      meta: [{ name: "description", content: 'my personal blog' }],
     };
   },
 };

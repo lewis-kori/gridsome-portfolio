@@ -1,42 +1,132 @@
 <template>
-  <div class="container columns">
-    <div class="column">
-      <table class="table" style="width:100%; background-color: rgb(10, 25, 47); color: beige;">
-        <thead>
-          <th>Year</th>
-          <th>Title</th>
-          <th>Made at</th>
-          <th>Built with</th>
-          <th>Links</th>
-        </thead>
+  <div class="columns">
+    <div class="column is-1 socials-hero" style="margin-left: 2rem;">
+      <aside class="menu" style="margin-top: 11rem;">
+        <ul class="menu-list">
+          <span class="icon"
+            ><a href="https://twitter.com/lewis_kihiu" target="__blank"
+              ><i class="fab fa-twitter"></i></a
+          ></span>
+        </ul>
+        <ul class="menu-list">
+          <span class="icon"
+            ><a
+              href="https://www.linkedin.com/in/lewis-kihiu-aba63011b"
+              target="__blank"
+              ><i class="fab fa-linkedin-in"></i></a
+          ></span>
+        </ul>
+        <ul class="menu-list">
+          <span class="icon"
+            ><a
+              href="https://www.facebook.com/lkori?_rdc=1&_rdr"
+              target="__blank"
+              ><i class="fab fa-facebook-f"></i></a
+          ></span>
+        </ul>
+        <ul class="menu-list">
+          <span class="icon"
+            ><a href="https://github.com/lewis-kori" target="__blank"
+              ><i class="fab fa-github-alt"></i></a
+          ></span>
+        </ul>
+      </aside>
+    </div>
+    <div class="columns">
+      <NavBar>
+        <section class="hero" style="margin-top: 5rem;">
+          <div class="hero-body" style="width: 100%;">
+            <div class="container">
+              <h3 class="title">
+                Projects Archive
+              </h3>
+              <p class="subtitle" style="color:#64ffda;">
+                A list Of things I've worked on over the years
+              </p>
+            </div>
 
-        <tbody>
-          <tr>
-            <td>2019</td>
-            <td>test</td>
-            <td>skye</td>
-            <td>bulma</td>
-            <td>ok</td>
-          </tr>
-        </tbody>
-      </table>
+            <div class="table-container" style="margin-top: 2rem;">
+              <div class="table is-fullwidth">
+                <thead>
+                  <tr>
+                    <th>Year</th>
+                    <th>Title</th>
+                    <th>Made at</th>
+                    <th>Tech stack</th>
+                    <th>Link</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr v-for="edge in $page.projects.edges" :key="edge.id">
+                    <td>{{ edge.node.year }}</td>
+                    <td>{{ edge.node.title }}</td>
+                    <td>{{ edge.node.made_at }}</td>
+                    <td>
+                      <span
+                        v-for="(stack, index) in edge.node.tech"
+                        :key="index"
+                        >{{ stack }}<span class="separator">·</span></span
+                      >
+                    </td>
+                    <td>
+                      <span class="icon" v-if="edge.node.github_link"
+                        ><g-link :to="edge.node.github_link"
+                          ><i class="fab fa-github-alt"></i></g-link
+                      ></span>
+                      <span class="icon" v-if="edge.node.external_link"
+                        ><g-link :to="edge.node.external_link"
+                          ><i class="fas fa-external-link-alt"></i></g-link
+                      ></span>
+                    </td>
+                  </tr>
+                </tbody>
+              </div>
+            </div>
+          </div>
+        </section>
+      </NavBar>
     </div>
   </div>
 </template>
 
-<query>
-    projects: allProjects {
-      edges {
-        node {
-          id
-          title
-          tech
-          github_link
-          external_link
-          cover_image (width: 640, height: 360, blur: 10)
-          content
-          path
-        }
+<script>
+import NavBar from "~/layouts/NavBar";
+export default {
+  components: {
+    NavBar,
+  },
+};
+</script>
+
+<style scoped>
+.hero-body th {
+  color: rgb(204, 214, 246);
+}
+.table {
+  background-color: rgb(10, 25, 47) !important;
+  color: beige !important;
+}
+.separator{
+  margin: 0 5px;
+}
+</style>
+<page-query>
+query {
+  projects: allProjects {
+    edges {
+      node {
+        id
+        title
+        content
+        path
+        year
+        made_at
+        tech
+        github_link
+        external_link
       }
     }
-</query>
+  }
+}
+</page-query>

@@ -43,7 +43,7 @@ ul {
   margin: 20px 0px 0px;
   list-style: outside none none;
 }
-li{
+li {
   font-size: 0.9rem;
 }
 li::before {

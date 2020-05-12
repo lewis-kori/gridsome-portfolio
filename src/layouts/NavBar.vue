@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <header>
     <nav
       class="navbar is-fixed-top"
       role="navigation"
@@ -22,6 +22,12 @@
             style="color: beige; margin-right: 2px; margin-left: 2rem;"
             >Blog</g-link
           >
+          <g-link
+            to="/projects"
+            class="navbar-item is-hidden-desktop is-hidden-widescreen"
+            style="color: beige; margin-right: 2px; margin-left: 2rem;"
+            >Projects</g-link
+          >
 
           <a
             class="bmc-button navbar-item is-hidden-desktop is-hidden-widescreen ko-fi"
@@ -41,6 +47,12 @@
             style="color: beige; margin-right: 2px;"
             >Blog</g-link
           >
+          <g-link
+            to="/projects"
+            class="navbar-item is-hidden-mobile"
+            style="color: beige; margin-right: 2px;"
+            >Projects</g-link
+          >
           <a
             class="bmc-button navbar-item is-hidden-mobile"
             target="_blank"
@@ -58,7 +70,7 @@
       <!-- </div> -->
     </nav>
     <slot />
-  </div>
+  </header>
 </template>
 
 

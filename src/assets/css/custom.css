@@ -15,7 +15,7 @@ h4 {
     color: beige !important;
     position: relative;
 }
-.hero-body .menu a {
+.menu a {
     color: rgb(136, 146, 176) !important;
 }
 .hero-body .menu a:hover {

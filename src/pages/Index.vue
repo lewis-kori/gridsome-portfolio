@@ -186,7 +186,7 @@
     <section class="section">
       <div class="columns is-mobile is-centered">
         <div id="projects" class="column is-half has-text-centered">
-          <h2 class="title">Featured Projects</h2>
+          <h2 class="title">Projects</h2>
         </div>
       </div>
 
@@ -200,7 +200,7 @@
         </div>
       </div>
 
-      <div class="columns is-mobile is-centered">
+      <div class="columns is-mobile is-centered" v-if="$page.other_projects.totalCount>=1">
         <div id="archive" class="column is-half has-text-centered">
           <g-link to="/projects/" style="color:#64ffda;"
             >View the archive</g-link
@@ -318,6 +318,9 @@ export default {
           featured
         }
       }
+    }
+    other_projects: allProjects (filter: { featured: { eq: false }}){
+     totalCount
     }
   about: allAbout (filter: { title : { eq: $title }}) {
     edges {

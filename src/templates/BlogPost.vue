@@ -25,7 +25,7 @@
             ></vue-disqus>
           </div>
         </div>
-        <Footer/>
+        <Footer />
       </section>
     </transition>
   </NavBar>
@@ -40,7 +40,7 @@ export default {
   components: {
     NavBar,
     PostMeta,
-    Footer
+    Footer,
   },
   metaInfo() {
     return {

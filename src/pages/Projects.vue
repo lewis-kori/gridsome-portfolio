@@ -32,57 +32,53 @@
         </ul>
       </aside>
     </div>
-    <div class="columns">
+    <div class="column">
       <NavBar>
-        <section class="hero" style="margin-top: 5rem;">
-          <div class="hero-body" style="width: 100%;">
-            <div class="container">
-              <h3 class="title">
-                Projects Archive
-              </h3>
-              <p class="subtitle" style="color:#64ffda;">
-                A list Of things I've worked on over the years
-              </p>
-            </div>
+        <section class="section" style="margin-top: 8rem; width: 100%;">
+          <div class="container">
+            <h3 class="title">
+              Projects Archive
+            </h3>
+            <p class="subtitle" style="color:#64ffda;">
+              A list Of things I've worked on over the years
+            </p>
+          </div>
 
-            <div class="table-container" style="margin-top: 2rem;">
-              <div class="table is-fullwidth">
-                <thead>
-                  <tr>
-                    <th>Year</th>
-                    <th>Title</th>
-                    <th>Made at</th>
-                    <th>Tech stack</th>
-                    <th>Link</th>
-                  </tr>
-                </thead>
+          <div class="table-container" style="margin-top: 2rem;">
+            <table class="table is-fullwidth">
+              <thead>
+                <tr>
+                  <th>Year</th>
+                  <th>Title</th>
+                  <th>Made at</th>
+                  <th>Tech stack</th>
+                  <th>Link</th>
+                </tr>
+              </thead>
 
-                <tbody>
-                  <tr v-for="edge in $page.projects.edges" :key="edge.id">
-                    <td>{{ edge.node.year }}</td>
-                    <td>{{ edge.node.title }}</td>
-                    <td>{{ edge.node.made_at }}</td>
-                    <td>
-                      <span
-                        v-for="(stack, index) in edge.node.tech"
-                        :key="index"
-                        >{{ stack }}<span class="separator">·</span></span
-                      >
-                    </td>
-                    <td>
-                      <span class="icon" v-if="edge.node.github_link"
-                        ><g-link :to="edge.node.github_link"
-                          ><i class="fab fa-github-alt"></i></g-link
-                      ></span>
-                      <span class="icon" v-if="edge.node.external_link"
-                        ><g-link :to="edge.node.external_link"
-                          ><i class="fas fa-external-link-alt"></i></g-link
-                      ></span>
-                    </td>
-                  </tr>
-                </tbody>
-              </div>
-            </div>
+              <tbody>
+                <tr v-for="edge in $page.projects.edges" :key="edge.id">
+                  <td class="projects-year">{{ edge.node.year }}</td>
+                  <td>{{ edge.node.title }}</td>
+                  <td>{{ edge.node.made_at }}</td>
+                  <td>
+                    <span v-for="(stack, index) in edge.node.tech" :key="index"
+                      >{{ stack }}<span class="separator">·</span></span
+                    >
+                  </td>
+                  <td>
+                    <span class="icon" v-if="edge.node.github_link"
+                      ><g-link :to="edge.node.github_link"
+                        ><i class="fab fa-github-alt"></i></g-link
+                    ></span>
+                    <span class="icon" v-if="edge.node.external_link"
+                      ><g-link :to="edge.node.external_link"
+                        ><i class="fas fa-external-link-alt"></i></g-link
+                    ></span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </section>
       </NavBar>
@@ -100,14 +96,18 @@ export default {
 </script>
 
 <style scoped>
-.hero-body th {
+.table th {
   color: rgb(204, 214, 246);
 }
 .table {
   background-color: rgb(10, 25, 47) !important;
   color: beige !important;
+  width: 100%;
 }
-.separator{
+.projects-year {
+  color :#64ffda !important;
+}
+.separator {
   margin: 0 5px;
 }
 </style>

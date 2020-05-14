@@ -19,18 +19,18 @@
           <g-link
             to="/posts"
             class="navbar-item is-hidden-desktop is-hidden-widescreen"
-            style="color: beige; margin-right: 2px; margin-left: 2rem;"
+            style="color: beige;"
             >Blog</g-link
           >
           <g-link
             to="/projects"
             class="navbar-item is-hidden-desktop is-hidden-widescreen"
-            style="color: beige; margin-right: 2px; margin-left: 2rem;"
+            style="color: beige;"
             >Projects</g-link
           >
 
           <a
-            class="bmc-button navbar-item is-hidden-desktop is-hidden-widescreen ko-fi"
+            class="bmc-button navbar-item is-hidden-desktop is-hidden-widescreen"
             target="_blank"
             href="https://www.buymeacoffee.com/lewiskori"
             ><g-image
@@ -72,7 +72,6 @@
     <slot />
   </header>
 </template>
-
 
 <style>
 .ko-fi {

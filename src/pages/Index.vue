@@ -15,6 +15,7 @@
                   src="https://res.cloudinary.com/lewiskori/image/upload/v1589484120/favicon_yrq0gz.png"
                   width="112"
                   height="28"
+                  alt="lewis_kori_logo"
                 />
               </a>
 

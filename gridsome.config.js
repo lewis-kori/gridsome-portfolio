@@ -40,6 +40,12 @@ module.exports = {
         path: "content/about/**/*.md",
       },
     },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-137370458-4'
+      }
+    }
   ],
 
   transformers: {

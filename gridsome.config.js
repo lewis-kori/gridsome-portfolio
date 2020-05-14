@@ -45,7 +45,26 @@ module.exports = {
       options: {
         id: 'UA-137370458-4'
       }
-    }
+    },
+    {
+      use: 'gridsome-plugin-pwa',
+      options: {
+          title: 'Lewis Kori',
+          startUrl: '/',
+          display: 'standalone',
+          statusBarStyle: 'default',
+          manifestPath: 'manifest.json',
+          disableServiceWorker: true,
+          serviceWorkerPath: 'service-worker.js',
+          cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
+          shortName: 'Gridsome',
+          themeColor: '#0a192f',
+          backgroundColor: '#172a45',
+          icon: 'src/favicon.png', // must be provided like 'src/favicon.png'
+          msTileImage: '',
+          msTileColor: '#8892b0'
+      }
+  }
   ],
 
   transformers: {

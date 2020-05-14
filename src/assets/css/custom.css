@@ -307,3 +307,6 @@ li:nth-child(odd) .projects-picture:hover {
         color: beige !important;
     }
 }
+.content {
+    color:white;
+}

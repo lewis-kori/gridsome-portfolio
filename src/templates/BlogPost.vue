@@ -3,7 +3,7 @@
     <transition name="fade" appear>
       <section class="section">
         <div class="container">
-          <div class="content" style="color:white;">
+          <div class="content">
             <div class="post-title">
               <h2 class="title is-medium">{{ $page.post.title }}</h2>
               <PostMeta :post="$page.post" />
@@ -51,12 +51,22 @@ export default {
 </script>
 
 <style lang="scss">
-@media screen and (min-width: 0px) and (max-width: 1000px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
   .container {
     width: 100%;
   }
 }
-@media screen and (min-width: 1001px) and (max-width: 2048px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 992px) {
   .container {
     width: 80%;
   }
@@ -119,6 +129,7 @@ body h2::after {
       cover_image 
       path
       dateCreated (format: "D. MMMM YYYY")
+      canonical_url
       series {
         title
         path

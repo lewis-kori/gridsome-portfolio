@@ -2,7 +2,7 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import DefaultLayout from "~/layouts/Default.vue";
-// import Buefy
+
 import Buefy from "buefy";
 import vueSmoothScroll from "vue2-smooth-scroll";
 import VueDisqus from "vue-disqus";

@@ -27,7 +27,8 @@ Some of the people that I find particularly helpful in helping me navigate the t
 #### 1. Mayuko
 
 She's an ios developer who's channel I stumbled upon earlier on while starting to code. Her videos are not your typical coding ones. Rather she focuses more on having a work-life balance. Her latest playlist has helped help me gain knowledge on how to kickstart my career in software engineering.
- {% youtube mmXJ2cbF6PQ %}
+
+<https://www.youtube.com/watch?v=mmXJ2cbF6PQ>
 
 #### 2. Joma Tech
 

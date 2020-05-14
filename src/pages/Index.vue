@@ -275,7 +275,7 @@ export default {
   metaInfo() {
     return {
       title: "Software Engineer",
-      meta: [{ name: "description", content: 'my personal blog' }],
+      meta: [{ name: "description", content: 'Lewis Kori - Software Engineer • Life long learner • Friend' }],
     };
   },
 };

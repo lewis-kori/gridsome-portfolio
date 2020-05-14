@@ -22,15 +22,16 @@
             style="color: beige;"
             >Blog</g-link
           >
+
           <g-link
-            to="/projects"
+            to="/#contact"
             class="navbar-item is-hidden-desktop is-hidden-widescreen"
             style="color: beige;"
-            >Projects</g-link
+            >Contact</g-link
           >
 
           <a
-            class="bmc-button navbar-item is-hidden-desktop is-hidden-widescreen"
+            class="navbar-item bmc-button is-hidden-desktop is-hidden-widescreen"
             target="_blank"
             href="https://www.buymeacoffee.com/lewiskori"
             ><g-image
@@ -40,7 +41,13 @@
         </div>
 
         <!-- <div> -->
-        <div class="navbar-end">
+        <div class="navbar-end is-hidden-mobile">
+          <g-link
+            to="/#about"
+            class="navbar-item is-hidden-mobile"
+            style="color: beige; margin-right: 2px;"
+            >About</g-link
+          >
           <g-link
             to="/posts"
             class="navbar-item is-hidden-mobile"
@@ -52,6 +59,12 @@
             class="navbar-item is-hidden-mobile"
             style="color: beige; margin-right: 2px;"
             >Projects</g-link
+          >
+          <g-link
+            to="/#contact"
+            class="navbar-item is-hidden-mobile"
+            style="color: beige; margin-right: 2px;"
+            >Contact</g-link
           >
           <a
             class="bmc-button navbar-item is-hidden-mobile"

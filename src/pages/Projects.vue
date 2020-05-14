@@ -51,8 +51,8 @@
                   <tr>
                     <th>Year</th>
                     <th>Title</th>
-                    <th>Made at</th>
-                    <th>Tech stack</th>
+                    <th class="is-hidden-mobile">Made at</th>
+                    <th class="is-hidden-mobile">Tools</th>
                     <th>Link</th>
                   </tr>
                 </thead>
@@ -61,9 +61,9 @@
                   <tr v-for="edge in $page.projects.edges" :key="edge.id">
                     <td class="projects-year">{{ edge.node.year }}</td>
                     <td>{{ edge.node.title }}</td>
-                    <td v-if="edge.node.made_at">{{ edge.node.made_at }}</td>
-                    <td v-else>___</td>
-                    <td>
+                    <td class="is-hidden-mobile" v-if="edge.node.made_at">{{ edge.node.made_at }}</td>
+                    <td class="is-hidden-mobile" v-else>___</td>
+                    <td class="is-hidden-mobile">
                       <span class="tech"
                         v-for="(stack, index) in edge.node.tech"
                         :key="index"

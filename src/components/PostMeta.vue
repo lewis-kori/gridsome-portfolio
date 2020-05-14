@@ -2,7 +2,9 @@
   <div class="post-meta">
     Posted {{ post.dateCreated }}.
     <template v-if="post.series">
-      <g-link :to="post.series.path" class="tag is-dark">{{ post.series.title }} series.</g-link>
+      <g-link :to="post.series.path" class="tag is-dark"
+        >{{ post.series.title }} series.</g-link
+      >
     </template>
   </div>
 </template>
@@ -21,7 +23,7 @@ export default {
         { property: "og:image", content: this.post.cover_image },
         {
           property: "og:url",
-          content: this.$static.metadata.siteUrl + this.post.path
+          content: this.$static.metadata.siteUrl + this.post.path,
         },
         // Some Twitter Cards Tags
         { name: "twitter:card", content: "summary" },
@@ -30,6 +32,7 @@ export default {
         { name: "twitter:description", content: this.post.description },
         { name: "twitter:image", content: this.post.cover_image },
       ],
+      link: [{ rel: "canonical", href: this.post.canonical_url }],
     };
   },
 };

@@ -131,13 +131,11 @@ export default {
 </style>
 <page-query>
 query {
-  projects: allProjects {
+  projects: allProjects(sortBy: "year" ,order: DESC) {
     edges {
       node {
         id
         title
-        content
-        path
         year
         made_at
         tech

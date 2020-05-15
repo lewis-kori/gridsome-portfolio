@@ -303,7 +303,7 @@ export default {
         }
       }
     }
-    projects: allProjects (filter: { featured: { eq: true }}){
+    projects: allProjects (filter: { featured: { eq: true }},sortBy: "year" ,order: DESC){
       edges {
         node {
           id

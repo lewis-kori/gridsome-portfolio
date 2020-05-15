@@ -36,7 +36,10 @@
 
             <div class="projects-picture">
               <figure class="image is-640x360">
-                <g-link :to="project.github_link">
+                <g-link v-if="project.external_link" :to="project.external_link">
+                  <g-image :src="project.cover_image" :alt="project.title" />
+                </g-link>
+                <g-link v-else-if="project.github_link" :to="project.github_link">
                   <g-image :src="project.cover_image" :alt="project.title" />
                 </g-link>
               </figure>

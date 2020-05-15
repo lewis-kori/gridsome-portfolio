@@ -310,3 +310,7 @@ li:nth-child(odd) .projects-picture:hover {
 .content {
     color:white;
 }
+
+strong {
+    color: rgb(204, 214, 246);
+}

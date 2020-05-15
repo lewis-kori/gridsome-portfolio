@@ -75,7 +75,7 @@ a {
   color: #64ffda;
 }
 .post-title {
-  padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
+  padding: calc(const(--space) / 2) 0 calc(const(--space) / 2);
   text-align: center;
   margin-bottom: 5%;
 }
@@ -119,6 +119,33 @@ body h2::after {
 }
 </style>
 
+<script>
+  export default {
+    mounted() {
+       this.setupMailchimpPopup() 
+    },
+    methods: {
+      setupMailchimpPopup () {
+          const mailchimpConfig = {
+              baseUrl: 'mc.us18.list-manage.com',
+              uuid: 'a530169885ed9e698a17e4a42',
+              lid: '7c6f9a54a3'
+          };
+          const chimpPopupLoader = document.createElement("script");
+          chimpPopupLoader.src = '//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js';
+          chimpPopupLoader.setAttribute('data-dojo-config', 'usePlainJson: true, isDebug: false');
+          const chimpPopup = document.createElement("script");
+          chimpPopup.appendChild(document.createTextNode('require(["mojo/signup-forms/Loader"], function (L) { L.start({"baseUrl": "' +  mailchimpConfig.baseUrl + '", "uuid": "' + mailchimpConfig.uuid + '", "lid": "' + mailchimpConfig.lid + '"})});'));
+          
+          chimpPopupLoader.onload = function() {
+            document.body.appendChild(chimpPopup);
+          }
+          document.body.appendChild(chimpPopupLoader);
+          
+      }
+    }
+  }
+</script>
 <page-query>
   query Blog($path: String){
     post: blogPost(path: $path){

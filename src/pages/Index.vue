@@ -21,9 +21,10 @@
                 role="button"
                 class="navbar-burger burger"
                 aria-label="menu"
+                style="z-index: 3;"
                 aria-expanded="false"
-                data-target="navbarItems"
-                @click="showNav = !showNav"
+                data-target="side-nav"
+                @click="toggleSideNav"
                 :class="{ 'is-active': showNav }"
               >
                 <span aria-hidden="true"></span>
@@ -31,12 +32,48 @@
                 <span aria-hidden="true"></span>
               </a>
             </div>
+            <nav id="side-nav">
+              <ul>
+                <li>
+                  <a
+                    href="#about"
+                    @click="toggleSideNav"
+                    v-smooth-scroll="scroll"
+                    class="navbar-item"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#blog"
+                    @click="toggleSideNav"
+                    v-smooth-scroll="scroll"
+                    class="navbar-item"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#projects"
+                    @click="toggleSideNav"
+                    v-smooth-scroll="scroll"
+                    class="navbar-item"
+                    >Projects</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#contact"
+                    @click="toggleSideNav"
+                    v-smooth-scroll="scroll"
+                    class="navbar-item"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
 
-            <div
-              id="navbarItems"
-              class="navbar-menu"
-              :class="{ 'is-active': showNav }"
-            >
+            <div id="navbarItems" class="navbar-menu">
               <div class="navbar-end">
                 <a
                   href="#about"
@@ -199,7 +236,10 @@
         </div>
       </div>
 
-      <div class="columns is-mobile is-centered" v-if="$page.other_projects.totalCount>=1">
+      <div
+        class="columns is-mobile is-centered"
+        v-if="$page.other_projects.totalCount >= 1"
+      >
         <div id="archive" class="column is-half has-text-centered">
           <g-link to="/projects/" style="color:#64ffda;"
             >View the archive</g-link
@@ -271,10 +311,31 @@ export default {
       return this.$page.blogs.pageInfo.totalPages >= 2;
     },
   },
+  mounted() {
+    const sideNav = document.querySelector("#side-nav");
+    sideNav.style.right = "-250px";
+  },
+  methods: {
+    toggleSideNav() {
+      const sideNav = document.querySelector("#side-nav");
+      if (sideNav.style.right == "-250px") {
+        sideNav.style.right = "-12px";
+        this.showNav = !this.showNav;
+      } else {
+        sideNav.style.right = "-250px";
+        this.showNav = !this.showNav;
+      }
+    },
+  },
   metaInfo() {
     return {
       title: "Software Engineer",
-      meta: [{ name: "description", content: 'Lewis Kori • Life long learner • Friend' }],
+      meta: [
+        {
+          name: "description",
+          content: "Lewis Kori • Life long learner • Friend",
+        },
+      ],
     };
   },
 };

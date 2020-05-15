@@ -77,28 +77,24 @@
               <div class="navbar-end">
                 <a
                   href="#about"
-                  @click="showNav = !showNav"
                   v-smooth-scroll="scroll"
                   class="navbar-item"
                   >About</a
                 >
                 <a
                   href="#blog"
-                  @click="showNav = !showNav"
                   v-smooth-scroll="scroll"
                   class="navbar-item"
                   >Blog</a
                 >
                 <a
                   href="#projects"
-                  @click="showNav = !showNav"
                   v-smooth-scroll="scroll"
                   class="navbar-item"
                   >Projects</a
                 >
                 <a
                   href="#contact"
-                  @click="showNav = !showNav"
                   v-smooth-scroll="scroll"
                   class="navbar-item"
                   >Contact</a

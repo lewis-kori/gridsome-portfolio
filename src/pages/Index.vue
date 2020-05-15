@@ -32,7 +32,7 @@
                 <span aria-hidden="true"></span>
               </a>
             </div>
-            <nav id="side-nav">
+            <nav id="side-nav" class="is-hidden-desktop">
               <ul>
                 <li>
                   <a

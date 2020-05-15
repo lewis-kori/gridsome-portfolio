@@ -18,8 +18,15 @@
           <g-link
             to="/posts"
             class="navbar-item is-hidden-desktop is-hidden-widescreen"
-            style="color: beige;"
+            style="color: beige; margin-left:0.7rem;"
             >Blog</g-link
+          >
+
+          <g-link
+            to="/projects"
+            class="navbar-item is-hidden-desktop is-hidden-widescreen"
+            style="color: beige;"
+            >Projects</g-link
           >
 
           <g-link

@@ -63,9 +63,8 @@ Find him [here](https://www.chrisblakely.dev/)
 
 ### Technical skills
 
-The list will be mainly python focused as that is the language I've been concentrating on for now. 
-I, however, came across a thread as I was writing this that should provide more links to your area of expertise.
-{% link andrewbrown/who-what-should-i-follow-on-instagram-for-web-dev-55d2 %}
+The list will be mainly python focused as that is the language I've been concentrating on for now.
+I, however, [came across a thread](https://dev.to/andrewbrown/who-what-should-i-follow-on-instagram-for-web-dev-55d2) as I was writing this that should provide more links to your area of expertise.
 
 ### Youtubers
 

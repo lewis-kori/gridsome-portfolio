@@ -3,9 +3,9 @@
     <section class="hero is-fullheight-with-navbar">
       <!-- nav area -->
       <div class="hero-head">
-        <div class="container">
+        
           <nav
-            class="navbar is-black"
+            class="navbar is-black is-fixed-top"
             role="navigation"
             aria-label="main navigation"
           >
@@ -32,8 +32,10 @@
                 <span aria-hidden="true"></span>
               </a>
             </div>
-            <nav id="side-nav" class="is-hidden-desktop">
-              <ul>
+
+            <!-- start side nav mobile -->
+            <aside id="side-nav" class="menu is-hidden-desktop">
+              <ul class="menu-list">
                 <li>
                   <a
                     href="#about"
@@ -71,8 +73,9 @@
                   >
                 </li>
               </ul>
-            </nav>
-
+            </aside>
+            <!-- end side nav mobile -->
+            
             <div id="navbarItems" class="navbar-menu">
               <div class="navbar-end">
                 <a
@@ -103,7 +106,7 @@
             </div>
           </nav>
         </div>
-      </div>
+
       <div class="hero-body">
         <div class="container">
           <div class="columns">

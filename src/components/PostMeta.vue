@@ -26,7 +26,7 @@ export default {
           content: this.$static.metadata.siteUrl + this.post.path,
         },
         // Some Twitter Cards Tags
-        { name: "twitter:card", content: "summary" },
+        { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:creator", content: "@lewis_kihiu" },
         { name: "twitter:title", content: this.post.title },
         { name: "twitter:description", content: this.post.description },

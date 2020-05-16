@@ -100,12 +100,6 @@ body a:hover {
     transition: all .2s ease-in-out;
 }
 
-@media(min-width:992px) {
-    .card-tile {
-        height: 380px;
-    }
-}
-
 .card-tile:hover {
     transform: scale(1.1);
 }

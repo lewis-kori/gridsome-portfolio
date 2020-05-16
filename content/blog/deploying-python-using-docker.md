@@ -6,7 +6,6 @@ cover_image: https://res.cloudinary.com/practicaldev/image/fetch/s--cg6jWyUt--/c
 description: Introduction to docker and django
 dateCreated: 2019-08-04
 ---
-This was originally published on my [personal website](https://lewiskori.com/post/deploying-a-python-django-application-using-docker)
 
 Hey there I was inspired to write this post based on my experience trying to move my deployments to use docker, particularly for django applications and couldn't get a comprehensive place/article that covered what I needed.Hopefully this article will help anyone out there who is feeling as stuck as I was.
 
@@ -276,8 +275,8 @@ To get a list of common commands you'll need for docker, read this [concise post
 for laravel developers
 [here's something](https://balysnotes.com/single_post/Brian_Baliach/051032437815811656) to get you started with docker
 
-Thank you very much for your time and I hope this article was useful. If you want more of this , feel free to [contact me](https://lewiskori.com/contact-me/)
+Thank you very much for your time and I hope this article was useful. If you want more of this , feel free to [contact me](https://lewiskori.com/#contact/)
 
-Don't forget to Like, share and [subscribe](https://lewiskori.com/). If you simply have more to add,drop a comment below.
+Don't forget to Like, share and [subscribe](https://mailchi.mp/c42286076bd8/lewiskori). If you simply have more to add,drop a comment below.
 
 thanks.

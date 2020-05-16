@@ -22,11 +22,14 @@ you can get a list of the popular languages and their best use case [here](https
 You’ll find that starting out is often the most difficult part, but with enough persistence and grit, everything will almost be like muscle memory(read copy paste google and stackoverflow answers)
 
 ### 2. Learn incrementally
+
 Ok now you are through with your first tutorial/online course and you see all your friends doing this amazing things. This is when the imposter syndrome really sets in. The feeling of inadequacy is a real issue and is something I really struggled with for a long time. Every time you feel like you are at the tail end of the pack and you are not good enough to be in this industry. So what do you do, you overwork yourself and eventually burn out.It took me a long time to get out of this zone and I decided to take a more laid back approach to how I learn new things. The goal now was to learn something in each and every project that I undertook, no matter how small it was, it would eventually lead to something big, and surprise surprise, within no time all those little things added up to a lot of knowledge and personal growth. hopefully this technique will reach all of you out there struggling with the same.
 Asking for help when you don’t know something also goes a long way and saves you countless hours to often times, small issues that could have been solved by someone more experienced than you are. Here’s a great place to ask around if you ever feel [stuck](https://stackoverflow.com/).
 *“Look, I know you’re very proud man, but you need to let other people help you if you’re in trouble. No man is an island.”*
+
 ### 3. Attending meetups
-*"A person requires the company and support of others and society as a whole in order to thrive."*
+
+>A person requires the company and support of others and society as a whole in order to thrive.
 
 It’s human nature to want to interact with others and naturally, we coalesce around those who are most similar to us. Nothing exemplifies this than attending tech meetups whenever you get the chance.
 The benefits include but are not limited to😁:
@@ -37,11 +40,11 @@ The benefits include but are not limited to😁:
 5.By sharing what you are struggling with you may well find some helpful advice.
 
 A great place to start and identify local meetup groups and communities is this [gem](https://www.meetup.com/) which is not really focused on tech meetups but all sorts of communities ranging from art and fitness enthusiasts,cooking clubs to book clubs. Give it a look if you haven’t heard of it yet.
-### 4. Take breaks
+
+### 4.Take breaks
+
 Taking a break gives you a chance to step back from the inner workings of the issue, letting you re-examine it from a fresh perspective. It can also allow your subconscious a chance to work on the problem — which can result in leaps to new ideas, rather than a continued plod down an existing path.
 
 Taking breaks also goes a long way in reducing burn out and I’ve found personally, a run or workout has helped in maintaining some balance.
 
-
-So have any points to add? drop them in the comment section below to help others reading this, and if you enjoyed this post don’t forget to share and [subscribe](https://lewiskori.com/).
-
+So have any points to add? drop them in the comment section below to help others reading this, and if you enjoyed this post don’t forget to share and [subscribe](https://mailchi.mp/c42286076bd8/lewiskori).

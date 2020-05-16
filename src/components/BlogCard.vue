@@ -57,13 +57,22 @@ export default {
   },
   methods: {
     shortenText(text) {
-      return text.slice(0, 300) + "...";
+      return text.slice(0, 250) + "...";
     },
   },
 };
 </script>
 
 <style scoped>
+
+@media(min-width:992px) {
+    .card-tile{
+      height: 26.25rem;
+    }
+    .card .content {
+        height: 210px;
+    }
+}
 .card-header-title h3 {
   margin-left: 1rem;
 }

@@ -99,6 +99,6 @@ The content is normally beginner-focused and hence easy to learn from.
 
 That's my list of resources I've been using to gain more knowledge of the tech industry. If you have any additional resources, post them in the comment section.
 
-If you want more posts like this, subscribe to my [newsletter](https://lewiskori.com/posts/) you can also find me on [twitter](https://twitter.com/lewis_kihiu).
+If you want more posts like this, subscribe to my [newsletter](https://mailchi.mp/c42286076bd8/lewiskori) you can also find me on [twitter](https://twitter.com/lewis_kihiu).
 
 Thanks.

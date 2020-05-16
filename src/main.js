@@ -13,31 +13,36 @@ import "~/assets/css/custom.css";
 export default function(Vue, { router, head, isClient }) {
   Vue.use(Buefy);
   Vue.use(vueSmoothScroll);
-  Vue.use(VueDisqus)
+  Vue.use(VueDisqus);
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
-  head.htmlAttrs = { class: 'has-navbar-fixed-top' }
+  head.htmlAttrs = { lang: "en", class: "has-navbar-fixed-top" };
 
   head.link.push({
     rel: "stylesheet",
     href: "//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css",
+    async: true,
   });
   head.link.push({
     rel: "stylesheet",
     href:
       "//github.githubassets.com/assets/gist-embed-d89dc96f3ab6372bb73ee45cafdd0711.css",
+    async: true,
   });
   head.script.push({
     src: "https://use.fontawesome.com/releases/v5.4.0/js/all.js",
     body: true,
+    async: true,
   });
   head.script.push({
     src:
       "//cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js",
     body: true,
+    async: true,
   });
   head.script.push({
     src: "https://platform.twitter.com/widgets.js",
     body: true,
+    async: true,
   });
 }

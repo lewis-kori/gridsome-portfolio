@@ -22,6 +22,7 @@ export default function(Vue, { router, head, isClient }) {
     rel: "stylesheet",
     href: "//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css",
     async: true,
+    defert: true,
   });
   head.link.push({
     rel: "stylesheet",

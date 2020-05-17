@@ -334,6 +334,10 @@ export default {
           name: "description",
           content: "Lewis Kori • Life long learner • Friend",
         },
+        {
+          name: "p:domain_verify",
+          content: "d3762d023e270e751265d131b7360400"
+        },
       ],
     };
   },

@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar>
-      <transition name="fade">
+      <transition>
       <section class="section" style="margin-top: 1rem;">
         <div class="columns is-mobile is-centered">
           <div id="blog" class="column is-half has-text-centered">
@@ -16,6 +16,11 @@
               :post="edge.node"
             />
           </div>
+          <div class="columns is-mobile is-centered">
+            <div class="column is-half has-text-centered">
+              <Pager :info="$page.blogs.pageInfo"/>
+            </div>
+          </div>
         </div>
       </section>
       </transition>
@@ -25,6 +30,7 @@
 </template>
 
 <script>
+import { Pager } from 'gridsome'
 import NavBar from "~/layouts/NavBar";
 import BlogCard from "~/components/BlogCard";
 import Footer from "~/components/Footer";
@@ -32,15 +38,20 @@ export default {
   components: {
     NavBar,
     BlogCard,
-    Footer
+    Footer,
+    Pager
   },
 };
 </script>
 
 </style>
 <page-query>
-query {
-  blogs: allBlogPost(sortBy: "dateCreated" ,order: DESC) {
+query($page: Int) {
+  blogs: allBlogPost(perPage: 9, page: $page, sortBy: "dateCreated" ,order: DESC) @paginate {
+    pageInfo {
+      totalPages
+      currentPage
+    }
   edges {
     node {
       id

@@ -36,7 +36,7 @@ export default {
 query ($id: ID!) {
   tag(id: $id) {
     title
-    belongsTo {
+    belongsTo(sortBy: "dateCreated" ,order: DESC) {
       edges {
         node {
           ... on BlogPost {

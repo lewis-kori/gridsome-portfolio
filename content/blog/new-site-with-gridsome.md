@@ -6,8 +6,8 @@ cover_image: https://res.cloudinary.com/lewiskori/image/upload/v1589888953/grids
 description: How I built my new site with gridsome and why I highly recommend it
 dateCreated: 2020-05-19
 ---
-I'm really excited to finally launch my new website 🥳. It's been a labour of love and in terms of growth, I must say I really enjoyed working on it. For the tech stack, I went out of my comfort zone as I am majorly a backend developer. So I used the opportunity to polish on my frontend skills. I utilised my favourite javascript framework, vue.js. I used their static site generator, gridsome. [Bulma](https://bulma.io/) was used for CSS.
-In this article, I'll explain how this decision came to be, what I was using before and my thoughts on gridsome.
+I'm really excited to finally launch my new website 🥳. It's been a labor of love and in terms of growth, I must say I really enjoyed working on it. For the tech stack, I went out of my comfort zone as I am majorly a backend developer. So I used the opportunity to polish on my frontend skills. I utilized my favorite javascript framework, vue.js. I used their static site generator, gridsome. [Bulma](https://bulma.io/) was used for CSS.
+In this article, I'll explain how this decision came to be, what I was using before, and my thoughts on gridsome.
 
 - [What I was using before](#what-i-was-using-before)
 - [Why I switched to gridsome](#why-i-switched-to-gridsome)
@@ -22,7 +22,7 @@ In this article, I'll explain how this decision came to be, what I was using bef
 
 As aforementioned, I am primarily a backend developer, so the first version of my website wasn't up to date with the modern web trends. I did this on purpose because at the time my main aim was to perfect my backend skills and so heavily concentrated on that aspect.
 
-I used Django(python web framework), Postgresql and a template from colorlib which I extended and modified to suit my needs. With time, I wrapped that with docker and redeployed the entire site. I used that project as a learning opportunity. You can read all about the lessons I learned [here](https://lewiskori.com/blog/lessons-learnt-from-building-and-deploying-a-portfolio-website/).
+I used Django(python web framework), Postgresql, and a template from colorlib which I extended and modified to suit my needs. With time, I wrapped that with docker and redeployed the entire site. I used that project as a learning opportunity. You can read all about the lessons I learned [here](https://lewiskori.com/blog/lessons-learnt-from-building-and-deploying-a-portfolio-website/).
 
 [Here's version one of the site](https://v-one.lewiskori.com/) for comparison.
 
@@ -71,7 +71,7 @@ Some additional features that were implemented for the new site are
 ### Challenges of gridsome
 
 The development process was fairly fun as their documentation was well written and thought out.
-However, I lacked some material which is not a bad thing in itself as it forces to figure stuff on your own.
+However, I lacked some material which is not a bad thing in itself as it forces you to figure stuff on your own.
 I'm keen to write a comprehensive tutorial on using gridsome with the lessons I learned. In case you're interested, [subscribe to my newsletter](https://mailchi.mp/c42286076bd8/lewiskori) and you'll get the content as soon as it's out.
 
 ### Was it worth the switch to gridsome
@@ -90,4 +90,4 @@ Thanks for reading this post. Should you have any questions feel free to leave a
 
 1. The design was highly inspired by [Brittany Chiang's](https://brittanychiang.com/) Gatsby site.
 
-2. The [gridsome starter blog source code](https://github.com/lewis-kori/gridsome-starter-blog) gave me a lot of insight where documentation lacked.
+2. The [gridsome starter blog source code](https://github.com/lewis-kori/gridsome-starter-blog) gave me a lot of insight into where documentation lacked.

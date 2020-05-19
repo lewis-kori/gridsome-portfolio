@@ -20,7 +20,7 @@ In this article, I'll explain how this decision came to be, what I was using bef
 
 ### What I was using before
 
-As forementioned, I am primarily a backend developer, so the first version of my website wasn't up to date with the modern web trends. I did this on purpose because at the time my main aim was to perfect my backend skills and so heavily concentrated on that aspect.
+As aforementioned, I am primarily a backend developer, so the first version of my website wasn't up to date with the modern web trends. I did this on purpose because at the time my main aim was to perfect my backend skills and so heavily concentrated on that aspect.
 
 I used Django(python web framework), Postgresql and a template from colorlib which I extended and modified to suit my needs. With time, I wrapped that with docker and redeployed the entire site. I used that project as a learning opportunity. You can read all about the lessons I learned [here](https://lewiskori.com/blog/lessons-learnt-from-building-and-deploying-a-portfolio-website/).
 
@@ -31,7 +31,7 @@ I used Django(python web framework), Postgresql and a template from colorlib whi
 So my site was working fine and I absolutely loved it. With time however and as I became more experienced in the backend, that curiosity bug that most developers come shipped with 😅 began nudging at me. Since I'd been learning vue.js and came to love it, I thought this would be a great opportunity to flex my frontend muscles a bit. Besides, what better way to learn than doing?
 
 Other than these reasons, It's important as a developer to keep up to date with the ever-changing tech field.
-My old site missed two important features that I really wanted. Continuos deployment and better code highlighting in markdown.
+My old site missed two important features that I really wanted. continuous deployment and better code highlighting in markdown.
 
 I saw netlify as an easy solution to the continuous deployment challenge.
 For context, here's a snapshot of my previous syntax highlighting,

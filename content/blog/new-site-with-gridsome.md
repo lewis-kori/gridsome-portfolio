@@ -1,5 +1,5 @@
 ---
-title: Building my new site with gridsome
+title: Building my new site with gridsome(vue.js)
 author: Lewis Kori
 tags: ["vue", "growth"]
 cover_image: https://res.cloudinary.com/lewiskori/image/upload/v1589888953/gridsome_zyrbtm.png

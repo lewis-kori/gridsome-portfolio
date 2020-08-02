@@ -149,6 +149,8 @@ If you prefer to learn using videos this series by Lucid programming was very us
 
 #### 3. [Best practises while using selenium](https://realpython.com/modern-web-automation-with-python-and-selenium/)
 
+#### 4. [Toptal's guide to modern web scraping with selenium](https://www.toptal.com/python/web-scraping-with-python)
+
 And with that, hopefully, you too can make a simple web scraper using selenium 😎.
 
 If you enjoyed this post subscribe to my [newsletter](https://mailchi.mp/c42286076bd8/lewiskori) to get notified whenever I write new posts or find me on [twitter](https://twitter.com/lewis_kihiu) for a chat.

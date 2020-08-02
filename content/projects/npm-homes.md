@@ -1,0 +1,12 @@
+---
+title: Northern Property Management
+tech: ["nuxt.js","django","docker"]
+cover_image: ./images/npm-homes.png
+external_link: https://app.npm97.com/
+featured: true
+year: 2020
+made_at: freelance
+---
+
+A web application for a property Management company based in Michigan. Allowing them to schedule services to their listed
+properties (with google calendar integration), manage property managers and staff. Providing an overall good experience for all parties.

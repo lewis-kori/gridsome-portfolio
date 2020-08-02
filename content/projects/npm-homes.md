@@ -8,5 +8,6 @@ year: 2020
 made_at: freelance
 ---
 
-A web application for a property Management company based in Michigan. Allowing them to schedule services to their listed
+A Progressive web application for a property Management company based in Michigan. Allowing them to schedule services to their listed
 properties (with google calendar integration), manage property managers and staff. Providing an overall good experience for all parties.
+Design credits to [@papaya-creative.](https://www.papaya-creative.com/)

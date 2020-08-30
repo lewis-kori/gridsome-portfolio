@@ -4,8 +4,9 @@
 import DefaultLayout from "~/layouts/Default.vue";
 
 import Buefy from "buefy";
-import vueSmoothScroll from "vue2-smooth-scroll";
 import VueDisqus from "vue-disqus";
+import VueSocialSharing from 'vue-social-sharing';
+import vueSmoothScroll from "vue2-smooth-scroll";
 
 import "buefy/dist/buefy.css";
 import "~/assets/css/custom.css";
@@ -14,6 +15,7 @@ export default function(Vue, { router, head, isClient }) {
   Vue.use(Buefy);
   Vue.use(vueSmoothScroll);
   Vue.use(VueDisqus);
+  Vue.use(VueSocialSharing);
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
   head.htmlAttrs = { lang: "en", class: "has-navbar-fixed-top" };

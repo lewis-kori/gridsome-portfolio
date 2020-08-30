@@ -18,6 +18,12 @@
             </div>
             <div class="blog__content" v-html="$page.post.content"></div>
           </div>
+          <div>
+            <div >
+              <h5 class="title is-small">Share to social media</h5>
+              <PostShare :post="$page.post" />
+            </div>
+          </div>
           <div class="comments">
             <vue-disqus
               shortname="lewiskori-com"
@@ -34,12 +40,14 @@
 <script>
 import NavBar from "~/layouts/NavBar";
 import PostMeta from "~/components/PostMeta";
+import PostShare from "~/components/PostShare";
 import Footer from "~/components/Footer";
 
 export default {
   components: {
     NavBar,
     PostMeta,
+    PostShare,
     Footer,
   },
   metaInfo() {
@@ -130,6 +138,9 @@ body h2::after {
       path
       dateCreated (format: "D. MMMM YYYY")
       canonical_url
+      tags {
+        title
+      }
       series {
         title
         path

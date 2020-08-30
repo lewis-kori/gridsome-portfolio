@@ -350,3 +350,9 @@ li:nth-child(odd) .projects-picture:hover {
 strong {
     color: rgb(204, 214, 246);
 }
+.comments{
+    margin-top: 2rem;
+}
+.share{
+    margin: 0.4rem 0.4rem 0.8rem 0;
+}

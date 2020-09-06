@@ -60,4 +60,4 @@ The repo has multiple branches representing the application at various stages. W
 
 The frontend was built with vue.js, specifically nuxt.js, and deployed using [pm2](https://pm2.io/)
 
-In the coming posts, we'll get hands-on by building the functional full-stack application. By the end of the series, hopefully, you should build similar systems.
+In the coming posts, we'll get hands-on by building the functional full-stack application. By the end of the series, hopefully, you should be able to build similar systems.

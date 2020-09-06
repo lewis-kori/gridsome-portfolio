@@ -2,7 +2,7 @@
 title: Building my new site with gridsome(vue.js)
 author: Lewis Kori
 tags: ["vue", "growth"]
-cover_image: https://res.cloudinary.com/lewiskori/image/upload/v1589888953/gridsome_zyrbtm.png
+cover_image: https://res.cloudinary.com/lewiskori/image/upload/v1599397105/blog/tasks_m_klnqnc.png
 description: How I built my new site with gridsome and why I highly recommend it
 dateCreated: 2020-05-19
 ---

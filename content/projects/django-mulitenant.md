@@ -8,4 +8,4 @@ year: 2020
 featured: true
 ---
 
-A multitenant expense tracker for organizations. Used as a teaching project for my [blog](/posts).
+A multitenant expense tracker for organizations. Used as a teaching project for my [blog](/series/intro-to-multi-tenant-apps-with-django/).

@@ -18,8 +18,22 @@
             </div>
             <div class="blog__content" v-html="$page.post.content"></div>
           </div>
+          <div v-if="$page.post.sponsors.length > 0" class="sponsors">
+            <h3 class="title is-medium">Sponsors</h3>
+            <p><strong>Please note that some of the links below are affiliate links and at
+            no additional cost to you. Know that I only recommend products,
+            tools and learning services I've personally used and believe are
+            genuinely helpful. Most of all, I would never advocate for buying
+            something you can't afford or that you aren't ready to implement.
+            </strong></p>
+            <SponsorCard
+              v-for="sponsor in $page.post.sponsors"
+              :key="sponsor.id"
+              :sponsorName="sponsor"
+            />
+          </div>
           <div>
-            <div >
+            <div>
               <h5 class="title is-small">Share to social media</h5>
               <PostShare :post="$page.post" />
             </div>
@@ -42,6 +56,7 @@ import NavBar from "~/layouts/NavBar";
 import PostMeta from "~/components/PostMeta";
 import PostShare from "~/components/PostShare";
 import Footer from "~/components/Footer";
+import SponsorCard from "~/components/SponsorCard";
 
 export default {
   components: {
@@ -49,6 +64,7 @@ export default {
     PostMeta,
     PostShare,
     Footer,
+    SponsorCard,
   },
   metaInfo() {
     return {
@@ -145,6 +161,7 @@ body h2::after {
         title
         path
       }
+      sponsors
     }
   }
 </page-query>

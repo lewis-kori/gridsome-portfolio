@@ -41,6 +41,13 @@ module.exports = {
       },
     },
     {
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "Sponsors",
+        path: "content/sponsors/**/*.md",
+      },
+    },
+    {
       use: "@gridsome/plugin-google-analytics",
       options: {
         id: "UA-137370458-4",

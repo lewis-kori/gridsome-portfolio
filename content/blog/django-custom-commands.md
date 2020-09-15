@@ -69,6 +69,8 @@ for user in users:
 
 Here, we specify the project's settings and not only that, call `django.setup()` method. The method configures the settings, logging and populates the app registry. In short, we are making the script aware of our project context.
 
+In case you're curious about the os module, my [previous post](/blog/how-to-clear-screen-in-python-terminal/) provides more insight.
+
 **Note that the order of import is important and must remain like so.**
 
 If we run the script again, all our users should be printed to the terminal 👯‍♂️.

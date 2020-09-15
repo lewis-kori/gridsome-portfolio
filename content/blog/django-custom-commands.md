@@ -137,7 +137,7 @@ By running python create_post.py, we are then prompted for some input.
 ## Writing custom django management commands method
 
 As aforementioned, django-admin commands are executed by running `python manage.py command_name` an example of these are `runserver, migrate and collectstatic`. To get a list of available commands run `python manage.py help`.
-This displays a list of the availabe commands as well as the django app folder in which they're housed.
+This displays a list of the available commands as well as the django app folder in which they're housed.
 
 To register a custom admin command, add a `management\commands` directory in your django app folder.
 In our case, it's going to be in posts\management\commands.

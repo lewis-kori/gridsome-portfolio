@@ -3,8 +3,8 @@ title: How to create custom commands in django
 author: Lewis Kori
 tags: ["tutorial","django","python",]
 description: How to write custom django command line commands
-dateCreated: 2020-09-15
 sponsors: ["Digital Ocean","Scraper API"]
+dateCreated: 2020-09-15
 ---
 
 When developing django projects, there comes a need to write one-off scripts that automate a particular task. Here are some use cases I've found myself applying before we continue with the implementation.
@@ -40,7 +40,7 @@ You can name the script list_users.py and run it by `python list_users.py`
 
 Immediately you run this, you'll be met with an error,
 
-```
+```text
 django.core.exceptions.ImproperlyConfigured: Requested setting AUTH_USER_MODEL, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
 ```
 
@@ -69,7 +69,7 @@ for user in users:
 
 Here, we specify the project's settings and not only that, call `django.setup()` method. The method configures the settings, logging and populates the app registry. In short, we are making the script aware of our project context.
 
-**Note that the order of import is important and must remain like so**
+**Note that the order of import is important and must remain like so.**
 
 If we run the script again, all our users should be printed to the terminal 👯‍♂️.
 
@@ -177,7 +177,7 @@ In our case, the function is expecting an argument that will be assigned the key
 The `handle()` function then evaluates the input and executes our logic.
 
 In the example above, the kind of argument expected is called a positional argument and must be provided for the function to run.
-To do this, we run `python manage.py publish_post`
+To do this, we run `python manage.py publish_post 1 (or any post primary key)`
 
 Another type of argument called Optional argument can be applied to the methods, as the name implies, the lack of these will not hinder the function execution.
 
@@ -220,11 +220,11 @@ class Command(BaseCommand):
 ```
 
 Here we are just editing a blog post title or content.
-To do this we can run `python manage.py edit_post -t "new title"` to edit just the title
+To do this we can run `python manage.py edit_post 2 -t "new title"` to edit just the title
 
 or `python manage.py edit_post -c "new content"`
 to edit just the content.
-We can provide both arguments should we wish to edit both title and content by `python manage.py edit_post -t "new title again" -c "new content again".
+We can provide both arguments should we wish to edit both title and content by `python manage.py edit_post 2 -t "new title again" -c "new content again".
 
 ### Extra resources
 

@@ -47,12 +47,12 @@ module.exports = {
         path: "content/sponsors/**/*.md",
       },
     },
-    // {
-    //   use: "@gridsome/plugin-google-analytics",
-    //   options: {
-    //     id: "UA-137370458-4",
-    //   },
-    // },
+    {
+      use: "@gridsome/plugin-google-analytics",
+      options: {
+        id: "UA-137370458-4",
+      },
+    },
     {
       use: "gridsome-plugin-pwa",
       options: {
@@ -76,10 +76,28 @@ module.exports = {
       use: "gridsome-plugin-service-worker",
       options: {
         networkFirst: {
-          routes: [
-            "/",
-            /\.(js|css|png|json|html|jpg|jpeg)$/,
-          ],
+          routes: ["/", /\.(js|css|png|json|html|jpg|jpeg)$/],
+        },
+      },
+    },
+    {
+      use: "gridsome-plugin-rss",
+      options: {
+        contentTypeName: "BlogPost",
+        feedOptions: {
+          title: "Lewis Kori Blog",
+          feed_url: "https://lewiskori.com/rss.xml",
+          site_url: "https://lewiskori.com",
+        },
+        feedItemOptions: (node) => ({
+          title: node.title,
+          description: node.description,
+          url: "https://lewiskori.com" + node.path,
+          author: node.author,
+        }),
+        output: {
+          dir: "./static",
+          name: "rss.xml",
         },
       },
     },

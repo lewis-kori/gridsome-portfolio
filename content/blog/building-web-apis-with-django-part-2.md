@@ -17,7 +17,7 @@ In this section, we'll be going through user registration with the django rest f
 
 The project is available on [github](https://github.com/lewis-kori/event-scheduler).
 
-### What is a JSON Web token?
+### What is a JSON Web token
 
 JSON Web Token (JWT) is an Internet standard for creating JSON-based access tokens that assert some number of claims. For example, a server could generate a token that has the flag "logged in as admin" or "logged in like this user" and provide that to a client. The client could then use that token to prove that it is logged in as admin. The tokens are signed by one party's private key (usually the server's) so that both parties can verify that the token is legitimate. The tokens are designed to be compact, URL-safe, and usable especially in a web-browser single-sign-on (SSO) context. JWT claims can be typically used to pass the identity of authenticated users between an identity provider and a service provider.
 Unlike token-based authentication, JWTs are not stored in the application's database. For a more in-depth explanation of how the JWTs work, check out this awesome video.

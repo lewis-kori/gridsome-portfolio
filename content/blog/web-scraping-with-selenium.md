@@ -19,12 +19,12 @@ Other problems one might encounter while web scraping is the possibility of your
 
 In addition to this, they provide CAPTCHA handling for you as well as enabling a headless browser so that you'll appear to be a real user and not get detected as a web scraper. For more on its usage, check out my post on web scraping with scrapy. Although you can use it with both BeautifulSoup and selenium.
 
-If you want more info as well as an intro the scrapy library check out [my post on the topic](https://dev.to/lewiskori/web-scraping-managing-proxies-and-captcha-with-scrapy-and-the-scraper-api-2c5b).
+If you want more info as well as an intro the scrapy library check out [my post on the topic](/blog/web-scraping-managing-proxies-and-captcha-with-scrapy-and-the-scraper-api/).
 
-Using this [link](https://www.scraperapi.com?fpr=lewiskori) and the code
-SCRAPE201818, you'll get a 10% discount off your first purchase!
+Using [this scraper api link](https://www.scraperapi.com?_go=korilewis) and the code
+lewis10, you'll get a 10% discount off your first purchase!
 
-For additional resources to understand the selenium library and best practices, click [here](https://towardsdatascience.com/web-scraping-a-simple-way-to-start-scrapy-and-selenium-part-i-10367164c6c0) and [here](https://www.accordbox.com/blog/web-scraping-framework-review-scrapy-vs-selenium/).
+For additional resources to understand the selenium library and best practices, [this article by towards datascience](https://towardsdatascience.com/web-scraping-a-simple-way-to-start-scrapy-and-selenium-part-i-10367164c6c0) and [accordbox](https://www.accordbox.com/blog/web-scraping-framework-review-scrapy-vs-selenium/).
 
 ### Setting up
 

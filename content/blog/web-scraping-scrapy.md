@@ -5,6 +5,7 @@ tags: ["python","startup", "webscraping","tutorial"]
 series: Web scraping techniques with python
 description: How to beat CAPTCHA forms while web scraping using the scraper API.
 dateCreated: 2019-09-07
+canonical_url: https://dev.to/lewiskori/web-scraping-managing-proxies-and-captcha-with-scrapy-and-the-scraper-api-2c5b
 ---
 
 In the first and second part of this series, we've introduced ourselves to web scraping and the techniques one can apply to achieve this task. We did so with BeautifulSoup and selenium python libraries. Check them out if you haven't yet.
@@ -21,7 +22,7 @@ For this walkthrough, we'll scrape data from the [moviedb](https://www.themovied
 Scrapy is an open-source python library.
 Scrapy lets you crawl websites concurrently without having to deal with threads, processes, synchronization or anything else. It handles your requests asynchronously and it is really fast. If you wanted something like this in your custom crawler, you'd have to implement it by yourself or use some async library.
 
-For more details on this topic, check this [post](https://www.quora.com/Why-would-some-use-scrapy-instead-of-just-crawling-with-requests-or-urllib2/answer/Valdir-Stumm-Junior?ch=10&share=6de6f35c&srid=5lfYx).
+For more details on this topic, check this [post on quora](https://www.quora.com/Why-would-some-use-scrapy-instead-of-just-crawling-with-requests-or-urllib2/answer/Valdir-Stumm-Junior?ch=10&share=6de6f35c&srid=5lfYx).
 
 ### **Why Scraper API?**
 
@@ -31,14 +32,14 @@ Scraper API is a startup specializing in strategies that'll ease the worry of yo
 In addition to this, they provide CAPTCHA handling for you as well as enabling a headless browser so that you'll appear to be a real user and not get detected as a web scraper.
 Usage is not limited to scrapy but works with requests, BeautifulSoup and selenium in the python ecosystem. Integration with other popular platforms such as node.js, bash, PHP and ruby is also supported. All you have to do is concatenate your target URL with their API endpoint on the HTTP get request then proceed as you normally would on any web scraper. In this walkthrough, I'll highlight just how to do that😁.
 
-Using this [link](https://www.scraperapi.com?fpr=lewiskori) and the promo code SCRAPE201818, you'll get a 10% discount on your first purchase!!
+Using [this scraper api link](https://www.scraperapi.com?_go=korilewis) and the promo code lewis10, you'll get a 10% discount on your first purchase!!
 You can always start on their generous free plan and upgrade when the need arises.
 
 ### **1.Setting up.**
 
 To get started, we need to install the scrapy library. Run `pip install scrapy`
 
-Afterwards, head over to the [scraper API website](https://www.scraperapi.com?fpr=lewiskori) and get an API key. We'll need this to access their services in a very simple way. So hold on tight.
+Afterwards, head over to the [scraper API website](https://www.scraperapi.com?_go=korilewis) and get an API key. We'll need this to access their services in a very simple way. So hold on tight.
 
 #### initiating the project
 

@@ -5,9 +5,10 @@ tags: ["python", "todayilearned", "beginners"]
 description: Quick python programming tips
 series: Python Quick Tips
 dateCreated: 2020-04-09
+sponsors: ["Scraper API", "Digital Ocean",]
 ---
 
-When working with the python interactive shell, you may end up having a cluttered screen. For Windows and Linux users, one can run `cls` or `clear` to clear their screens. But this doesn't seem to cut it while working in the python shell. Here are a few quick tips to achieve this in python. 
+When working with the python interactive shell, you may end up having a cluttered screen. For Windows and Linux users, one can run `cls` or `clear` to clear their screens. But this doesn't seem to cut it while working in the python shell. Here are a few quick tips to achieve this in python.
 
 We need to get into python shell first 😆. To do this, type `python` in your terminal or if you want to access the Django DB shell, `python manage.py shell` will suffice.
 

@@ -23,16 +23,16 @@ Before starting to web scrape, find out if the page you seek to extract data fro
 Ensure that you check the robots.txt file of a website before making your scrapper. This file tells if the website allows scraping or if they do not.
 To check for the file, simply type the base URL followed by "/robots.txt"
 An example is, "mysite.com/robots.txt".
-For more about robots.txt files [click here](https://varvy.com/robottxt.html).
+For more about robots.txt files [this post](https://varvy.com/robottxt.html) should provide better incite.
 
 #### Other potential problems
 
 Other problems one might encounter while web scraping is the possibility of your IP address being blacklisted. I partnered with scraper API, a startup specializing in strategies that'll ease the worry of your IP address from being blocked while web scraping. They utilize IP rotation so you can avoid detection. Boasting over 20 million IP addresses and unlimited bandwidth.
 
-In addition to this, they provide CAPTCHA handling for you as well as enabling a headless browser so that you'll appear to be a real user and not get detected as a web scraper. For more on its usage, check out my post on [web scraping with scrapy](https://dev.to/lewiskori/beginner-s-guide-to-web-scraping-with-python-s-selenium-3fl9). Although you can use it with both BeautifulSoup and selenium.
+In addition to this, they provide CAPTCHA handling for you as well as enabling a headless browser so that you'll appear to be a real user and not get detected as a web scraper. For more on its usage, check out my post on [web scraping with scrapy](/blog/web-scraping-managing-proxies-and-captcha-with-scrapy-and-the-scraper-api/). Although you can use it with both BeautifulSoup and selenium.
 
-Using this [link](https://www.scraperapi.com/?fpr=lewiskori) and the code
-SCRAPE201818, you'll get a 10% discount off your first purchase!
+Using [this scraper api link](https://www.scraperapi.com?_go=korilewis) and the code
+lewis10, you'll get a 10% discount off your first purchase!
 
  <a href="https://www.scraperapi.com?fpr=lewiskori" target="_blank" style="outline:none;border:none;"><img src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/ssvxh57a/marketing_asset/banner/2665/069-ScraperAPI-B-GIF-336x280-v1.gif" alt="scraperapi" border="0"/></a>
 

@@ -6,7 +6,7 @@ series: REST APIs with django
 cover_image: https://res.cloudinary.com/practicaldev/image/fetch/s--LMRJS1Sq--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--k8um9boO--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/joznyhq1xf1yg8gj44g9.jpg
 description: An introduction to Rest APIs with python and django
 dateCreated: 2019-11-14
-sponsors: ["Digital Ocean","Scraper API"]
+sponsors: ["Scraper API", "Digital Ocean"]
 ---
 
 Hey there, I'd like to introduce you to making web APIs with the popular python web framework, Django.

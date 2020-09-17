@@ -3,7 +3,7 @@ title: How to create custom commands in django
 author: Lewis Kori
 tags: ["tutorial","django","python",]
 description: How to write custom django command line commands
-ssponsors: ["Scraper API", "Digital Ocean"]
+sponsors: ["Scraper API", "Digital Ocean"]
 dateCreated: 2020-09-15
 ---
 

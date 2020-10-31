@@ -73,11 +73,10 @@
                   >
                 </li>
                 <li>
-                  <a
-                    href="/collaborate"
-                    target="__blank"
+                  <g-link
+                    to="/collaborate"
                     class="navbar-item"
-                    >Collaborate</a
+                    >Collaborate</g-link
                   >
                 </li>
               </ul>
@@ -110,11 +109,10 @@
                   class="navbar-item"
                   >Contact</a
                 >
-                <a
-                  href="/collaborate"
-                  target="__blank"
+                <g-link
+                  to="/collaborate"
                   class="navbar-item"
-                  >Collaborate</a
+                  >Collaborate</g-link
                 >
               </div>
             </div>

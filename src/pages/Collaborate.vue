@@ -4,7 +4,7 @@
       <!-- Calendly inline widget begin -->
       <div
         class="calendly-inline-widget"
-        data-url="https://calendly.com/lewiskori/30min?background_color=0c1326&primary_color=47c9a7"
+        data-url="https://calendly.com/lewiskori/30min?background_color=0c1326&primary_color=47c9a7&text_color=ffffff"
         style="min-width:320px;height:100vh;"
       ></div>
       <!-- Calendly inline widget end -->

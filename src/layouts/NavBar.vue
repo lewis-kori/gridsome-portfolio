@@ -82,7 +82,7 @@
             to="/collaborate"
             class="navbar-item is-hidden-mobile"
             style="color: beige; margin-right: 2px;"
-            >Collarobate</g-link
+            >Collaborate</g-link
           >
           <a
             class="bmc-button navbar-item is-hidden-mobile"

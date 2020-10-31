@@ -29,11 +29,17 @@
             >Projects</g-link
           >
 
-          <g-link
+          <!-- <g-link
             to="/#contact"
             class="navbar-item is-hidden-desktop is-hidden-widescreen"
             style="color: beige;"
             >Contact</g-link
+          > -->
+          <g-link
+            to="/collaborate"
+            class="navbar-item is-hidden-desktop is-hidden-widescreen"
+            style="color: beige;"
+            >Collaborate</g-link
           >
 
           <a
@@ -71,6 +77,12 @@
             class="navbar-item is-hidden-mobile"
             style="color: beige; margin-right: 2px;"
             >Contact</g-link
+          >
+          <g-link
+            to="/collaborate"
+            class="navbar-item is-hidden-mobile"
+            style="color: beige; margin-right: 2px;"
+            >Collarobate</g-link
           >
           <a
             class="bmc-button navbar-item is-hidden-mobile"

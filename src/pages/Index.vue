@@ -72,6 +72,14 @@
                     >Contact</a
                   >
                 </li>
+                <li>
+                  <a
+                    href="/collaborate"
+                    target="__blank"
+                    class="navbar-item"
+                    >Collaborate</a
+                  >
+                </li>
               </ul>
             </aside>
             <!-- end side nav mobile -->
@@ -101,6 +109,12 @@
                   v-smooth-scroll="scroll"
                   class="navbar-item"
                   >Contact</a
+                >
+                <a
+                  href="/collaborate"
+                  target="__blank"
+                  class="navbar-item"
+                  >Collaborate</a
                 >
               </div>
             </div>

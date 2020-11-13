@@ -71,7 +71,7 @@ Being a software developer based in Nairobi, Kenya the [telegram group](https://
 ### Djangorestframework
 
 [Django REST framework](https://www.django-rest-framework.org/) is a powerful and flexible toolkit for building Web APIs with Django. Django in itself has support for JSON serialization but DRF makes the process so easy.
-The API development approach makes it easy to build APIs that enable you to create Frontends with modern javascript frameworks like react, angular and vue. The possibilities are endless.
+The API development approach makes it easy to build solutions that enable you to create Frontends with modern javascript frameworks like react, angular and Vue. The possibilities are endless.
 
 ### Django cors headers
 
@@ -82,13 +82,16 @@ Adding CORS headers allows your resources to be accessed on other domains. Howev
 
 The [Djoser](https://djoser.readthedocs.io/en/latest/introduction.html) library provides a set of Django Rest Framework views and endpoints to handle basic actions such as registration, login, logout, password reset, and account activation. You could build out the features yourself but this has most of the features you may end up building.
 
+My previous post highlights [user authentication and authorization with jwts](/blog/user-registration-and-authorization-on-a-django-api-with-djoser-and-json-web-tokens/).
+All powered by Djoser.
+
 ### Django storages
 
 [Django-storages](https://django-storages.readthedocs.io/en/latest/) is a collection of custom storage backends for Django. The library allows you to configure django to store static and media files to various platforms such as amazon s3, [digital ocean](https://m.do.co/c/2282403be01f), google cloud and Dropbox.
 
 ### django channels and djangochannelsrestframework
 
-[djangochannelsrestframework](https://pypi.org/project/djangochannelsrestframework/) provides a DRF like interface for building channels-v2 websocket consumers. The library leverages on the power of [djangorestframework](#djangorestframework) and [django-channels](https://channels.readthedocs.io/en/stable/) to provide a seamless integration of the two.
+[djangochannelsrestframework](https://pypi.org/project/djangochannelsrestframework/) provides a DRF like interface for building channels-v2 WebSocket consumers. The library leverages on the power of [djangorestframework](#djangorestframework) and [django-channels](https://channels.readthedocs.io/en/stable/) to provide seamless integration of the two.
 
 Other notable libraries are:
 

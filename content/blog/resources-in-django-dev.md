@@ -25,6 +25,10 @@ I highly recommend it.
 
 Yet another [long running blog](https://realpython.com/). Every python developer has at least encountered the platform once or twice while doing research for their projects.
 
+### thegreencodes
+
+This a [blog](https://marvinkweyu.thegreencodes.com/articles/) run by [Marvin Kweyu](https://twitter.com/marvinus_j) a Kenyan Software developer who describes himself as a Djangonaout. The articles are well researched and written articulately.
+
 ### Corey Schaefer
 
 The [youtube channel](https://www.youtube.com/user/schafer5) has a plethora of resources. These are not limited to [django development](https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p) but also python programming in general. His passion and dedication can be felt in every video and you're sure to learn a lot from there.

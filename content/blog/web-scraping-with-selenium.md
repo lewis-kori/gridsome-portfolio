@@ -63,27 +63,32 @@ from selenium.webdriver import Firefox
 #### Main script
 
 ```python
-pages = 10
+from selenium.webdriver import Chrome
+import pandas as pd
 
+webdriver = "path_to_your_driver"
+
+driver = Chrome(webdriver)
+
+pages = 11
+
+total = []
 for page in range(1,pages):
 
     url = "http://quotes.toscrape.com/js/page/" + str(page) + "/"
 
     driver.get(url)
 
-    items = len(driver.find_elements_by_class_name("quote"))
+    quotes = driver.find_elements_by_class_name("quote")
+    for quote in quotes:
+        quote_text = quote.find_element_by_class_name('text').text[1:-2]
+        author = quote.find_element_by_class_name('author').text
+        new = ((quote_text,author))
+        total.append(new)
 
-    total = []
-    for item in range(items):
-        quotes = driver.find_elements_by_class_name("quote")
-        for quote in quotes:
-            quote_text = quote.find_element_by_class_name('text').text
-            author = quote.find_element_by_class_name('author').text
-            new = ((quote_text,author))
-            total.append(new)
-    df = pd.DataFrame(total,columns=['quote','author'])
-    df.to_csv('quoted.csv')
 driver.close()
+df = pd.DataFrame(total,columns=['quote','author'])
+df.to_csv('quoted.csv')
 ```
 
 On close inspection of the sites URL, we'll notice that the pagination URL is
@@ -104,8 +109,6 @@ We can use web scraping to gather unstructured data from the internet, process i
 On inspecting each quote element, we observe that each quote is enclosed within a div with the class name of quote. By running the directive `driver.get_elements_by_class("quote")`
 we get a list of all elements within the page exhibiting this pattern.
 
-The command is then wrapped with a len() function to get the exact number of quotes within that page and store it in the item variable to make our iterator.
-
 #### Final step
 
 ```python
@@ -118,17 +121,16 @@ The command is then wrapped with a len() function to get the exact number of quo
 ```
 
 To begin extracting the information from the webpages, we'll take advantage of the aforementioned patterns in the web pages underlying code.
-To start, we'll need the list of all quotes that we'd described above. On this step, however, we'll not be enclosing it in a len() function as we need individual elements.
 
-Afterwards, the inner for loop is to iterate over each quote and extract a specific record.
+We'll start by iterating over the `quote` elements, this allows us to go over each quote and extract a specific record.
 From the picture above we notice that the quote is enclosed within a span of class text and the author within the small tag with a class name of author.
 
 Finally, we store the quote_text and author names variables in a tuple which we proceed to append to the python list by the name total.
 
 ```python
-    df = pd.DataFrame(total,columns=['quote','author'])
-    df.to_csv('quoted.csv')
 driver.close()
+df = pd.DataFrame(total,columns=['quote','author'])
+df.to_csv('quoted.csv')
 ```
 
 Using the pandas library, we'll initiate a dataframe to store all the records(total list) and specify the column names as quote and author.
@@ -153,6 +155,11 @@ If you prefer to learn using videos this series by Lucid programming was very us
 
 And with that, hopefully, you too can make a simple web scraper using selenium 😎.
 
-If you enjoyed this post subscribe to my [newsletter](https://mailchi.mp/c42286076bd8/lewiskori) to get notified whenever I write new posts or find me on [twitter](https://twitter.com/lewis_kihiu) for a chat.
+If you enjoyed this post subscribe to my [newsletter](https://mailchi.mp/c42286076bd8/lewiskori) to get notified whenever I write new posts.
+
+#### open to collaboration
+
+I recently made a collaborations page on my website. Have an interesting project in mind or want to fill a part-time role?
+You can now [book a session](/collaborate) with me directly from my site.
 
 Thanks.

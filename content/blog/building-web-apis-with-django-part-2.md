@@ -319,3 +319,8 @@ Through a PUT request
 
 That's the end of this looong post 👀. I hope with this information you too can make your own RESTful API with django.
 If you have any questions, feel free to leave a comment.
+
+### open to collaboration
+
+I recently made a collaborations page on my website. Have an interesting project in mind or want to fill a part-time role?
+You can now [book a session](/collaborate) with me directly from my site.

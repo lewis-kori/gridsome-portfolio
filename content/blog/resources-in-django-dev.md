@@ -99,6 +99,9 @@ Other notable libraries are:
 2. [django-filter](https://django-filter.readthedocs.io/en/stable/)
 3. [python-decouple](https://pypi.org/project/python-decouple/)
 
+> looking for your next python role? are you in need of qualified python developers?
+checkout [recruitment's resource guide.](https://recruitment.com/recommendations/hire-python-developers)
+
 ### Conclusion
 
 That's it from me. If you have any additional resources drop them in the comments. I'm curious to see what tools you use.

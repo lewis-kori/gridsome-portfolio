@@ -5,7 +5,7 @@ tags: ["python", "webscraping","tutorial", "startup"]
 series: Web scraping techniques with python
 description: Introduction to no code web scraping with prowebscraper.
 dateCreated: 2020-12-10
-cover_image: https://res-console.cloudinary.com/lewiskori/thumbnails/transform/v1/image/upload//v1607583532/YmxvZy9wcm93ZWJzY3JhcGVyX2Y5NG01cQ==/drilldown
+cover_image: https://res.cloudinary.com/lewiskori/image/upload/v1607583532/blog/prowebscraper_f94m5q.png
 ---
 
 Over the course of the web scraping series, we've covered a number of approaches to scraping the web. The approaches typically involved writing code using python and the various libraries that python has to offer such as BeautifulSoup, selenium and scrapy.

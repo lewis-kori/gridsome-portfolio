@@ -21,7 +21,7 @@ This can be in form of various formats such as CSV, JSON , txt and so on.
 
 ## what is prowebscraper?
 
-[Prowebscraper](https://prowebscraper.com/) is an effortless, scalable web scraping tool and service that allows you to build otherwise complex web scrapers with no code at all.
+Prowebscraper is an effortless, scalable [web scraping tool](https://prowebscraper.com/) and service that allows you to build otherwise complex web scrapers with no code at all.
 
 To get started exploring all these goodies 😀, we'll need to set up an account with prowebscraper, head over to their [registration page](https://prowebscraper.com/register) and register a free account with them. Their generous free plan allows up to 1000  scraped web pages. On top of this, the prowebscraper technical and support team will guide you through your first web scraper at no extra charge in case you get stuck.
 

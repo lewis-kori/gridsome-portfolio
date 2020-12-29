@@ -387,6 +387,8 @@ export default {
           tech
           github_link
           external_link
+          app_store
+          google_play
           cover_image (width: 640, height: 360, blur: 10)
           content
           path

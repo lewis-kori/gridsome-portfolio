@@ -79,6 +79,14 @@
                         ><g-link :to="edge.node.github_link"
                           ><i class="fab fa-github-alt"></i></g-link
                       ></span>
+                       <span class="icon" v-if="edge.node.google_play"
+                        ><g-link :to="edge.node.google_play"
+                          ><i class="fab fa-google-play"></i></g-link
+                      ></span>
+                       <span class="icon" v-if="edge.node.app_store"
+                        ><g-link :to="edge.node.google_play"
+                          ><i class="fab fa-app-store"></i></g-link
+                      ></span>
                     </td>
                   </tr>
                 </tbody>
@@ -140,6 +148,8 @@ query {
         made_at
         tech
         github_link
+        google_play
+        app_store
         external_link
       }
     }

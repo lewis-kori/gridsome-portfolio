@@ -31,15 +31,29 @@
                   ><g-link :to="project.external_link"
                     ><i class="fas fa-external-link-alt"></i></g-link
                 ></span>
+                <span class="icon" v-if="project.google_play"
+                  ><g-link :to="project.google_play"
+                    ><i class="fab fa-google-play"></i></g-link
+                ></span>
+                <span class="icon" v-if="project.app_store"
+                  ><g-link :to="project.google_play"
+                    ><i class="fab fa-app-store"></i></g-link
+                ></span>
               </div>
             </div>
 
             <div class="projects-picture">
               <figure class="image is-640x360">
-                <g-link v-if="project.external_link" :to="project.external_link">
+                <g-link
+                  v-if="project.external_link"
+                  :to="project.external_link"
+                >
                   <g-image :src="project.cover_image" :alt="project.title" />
                 </g-link>
-                <g-link v-else-if="project.github_link" :to="project.github_link">
+                <g-link
+                  v-else-if="project.github_link"
+                  :to="project.github_link"
+                >
                   <g-image :src="project.cover_image" :alt="project.title" />
                 </g-link>
               </figure>

@@ -46,7 +46,7 @@ With this in mind, I am learning to structure my work into small achievable goal
 
 I realized that the community of wellness built around the gym not only inspired me to push myself further, But also helped tremendously whenever others were low on spirit. Additionally, people were generally willing to help out new members to help them achieve success. Together, people are willing to bring out the champions in each and everyone of us.
 
-Starting out, I had this notion that asking for help whenever I encountered a problem coding was a sign of weakness or that others would think I wasn't smart enough. 
+Starting out, I had this notion that asking for help whenever I encountered a problem coding was a sign of weakness or that others would think I wasn't smart enough.
 The truth is, nothing could be further from the truth.
 There's nothing wrong in asking for help. I've found that often times it saves a great amount on an issue that another could easily solve. Online communities and attending tech meetups are definitely a good chance to meet others in the tech field and expand not only your network, but your knowledge pool.
 

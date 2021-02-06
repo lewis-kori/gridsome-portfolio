@@ -61,3 +61,10 @@ The repo has multiple branches representing the application at various stages. W
 The frontend was built with vue.js, specifically nuxt.js, and deployed using [pm2](https://pm2.io/)
 
 In the coming posts, we'll get hands-on by building the functional full-stack application. By the end of the series, hopefully, you should be able to build similar systems.
+
+If you have any questions, feel free to leave a comment. My [Twitter dm](https://twitter.com/lewis_kihiu) is always open and If you liked this walkthrough, [subscribe to my mailing list](https://mailchi.mp/c42286076bd8/lewiskori) to get notified whenever I make new posts.
+
+### open to collaboration
+
+I recently made a collaborations page on my website. Have an interesting project in mind or want to fill a part-time role?
+You can now [book a session](/collaborate) with me directly from my site.

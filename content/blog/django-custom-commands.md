@@ -233,4 +233,9 @@ We can provide both arguments should we wish to edit both title and content by `
 1. [Django docs](https://docs.djangoproject.com/en/3.1/howto/custom-management-commands/)
 2. [Simple is better than complex](https://simpleisbetterthancomplex.com/tutorial/2018/08/27/how-to-create-custom-django-management-commands.html#cron-job)
 
-That's it from me, should you have any questions, [twitter dm](https://twitter.com/lewis_kihiu) is always open.
+If you have any questions, feel free to leave a comment. My [Twitter dm](https://twitter.com/lewis_kihiu) is always open and If you liked this walkthrough, [subscribe to my mailing list](https://mailchi.mp/c42286076bd8/lewiskori) to get notified whenever I make new posts.
+
+### open to collaboration
+
+I recently made a collaborations page on my website. Have an interesting project in mind or want to fill a part-time role?
+You can now [book a session](/collaborate) with me directly from my site.

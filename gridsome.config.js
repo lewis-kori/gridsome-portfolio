@@ -47,12 +47,12 @@ module.exports = {
         path: "content/sponsors/**/*.md",
       },
     },
-    // {
-    //   use: "@gridsome/plugin-google-analytics",
-    //   options: {
-    //     id: "UA-137370458-4",
-    //   },
-    // },
+    {
+      use: "@gridsome/plugin-google-analytics",
+      options: {
+        id: "UA-137370458-4",
+      },
+    },
     {
       use: "gridsome-plugin-pwa",
       options: {

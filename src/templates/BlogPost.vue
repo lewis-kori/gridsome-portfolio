@@ -20,12 +20,16 @@
           </div>
           <div v-if="$page.post.sponsors.length > 0" class="sponsors">
             <h3 class="title is-medium">Sponsors</h3>
-            <p><strong>Please note that some of the links below are affiliate links and at
-            no additional cost to you. Know that I only recommend products,
-            tools and learning services I've personally used and believe are
-            genuinely helpful. Most of all, I would never advocate for buying
-            something you can't afford or that you aren't ready to implement.
-            </strong></p>
+            <p>
+              <strong
+                >Please note that some of the links below are affiliate links
+                and at no additional cost to you. Know that I only recommend
+                products, tools and learning services I've personally used and
+                believe are genuinely helpful. Most of all, I would never
+                advocate for buying something you can't afford or that you
+                aren't ready to implement.
+              </strong>
+            </p>
             <SponsorCard
               v-for="sponsor in $page.post.sponsors"
               :key="sponsor.id"
@@ -41,7 +45,11 @@
           <div class="comments">
             <vue-disqus
               shortname="lewiskori-com"
-              :identifier="$page.title"
+              :pageConfig="{
+                url: `${$page.metadata.siteUrl}${$page.post.path}`,
+                identifier: $page.title,
+                title: $page.title,
+              }"
             ></vue-disqus>
           </div>
         </div>
@@ -52,11 +60,11 @@
 </template>
 
 <script>
-import NavBar from "~/layouts/NavBar";
-import PostMeta from "~/components/PostMeta";
-import PostShare from "~/components/PostShare";
-import Footer from "~/components/Footer";
-import SponsorCard from "~/components/SponsorCard";
+import NavBar from '~/layouts/NavBar';
+import PostMeta from '~/components/PostMeta';
+import PostShare from '~/components/PostShare';
+import Footer from '~/components/Footer';
+import SponsorCard from '~/components/SponsorCard';
 
 export default {
   components: {
@@ -122,7 +130,7 @@ blockquote {
   position: relative;
   padding-left: 1em;
   border-left: 0.2em solid lighten($black, 40%);
-  font-family: "Roboto", serif;
+  font-family: 'Roboto', serif;
   font-size: $base-font-size;
   line-height: $base-line-height;
   font-weight: 100;
@@ -130,12 +138,12 @@ blockquote {
   color: $beige;
   &:before,
   &:after {
-    content: "\201C";
-    font-family: "Sanchez";
+    content: '\201C';
+    font-family: 'Sanchez';
     color: lighten($black, 40%);
   }
   &:after {
-    content: "\201D";
+    content: '\201D';
   }
 }
 body h2::after {
@@ -145,6 +153,9 @@ body h2::after {
 
 <page-query>
   query Blog($path: String){
+    metadata {
+      siteUrl
+    }
     post: blogPost(path: $path){
       title
       author

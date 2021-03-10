@@ -4,6 +4,7 @@ tech: ["Django", "Vue.js", "Docker"]
 github_link: https://github.com/lewis-kori/budgeting-app
 external_link: https://defyne.lewiskori.com/
 cover_image: ./images/multitenant.png
+made_at: Open Source Software
 year: 2020
 featured: true
 ---

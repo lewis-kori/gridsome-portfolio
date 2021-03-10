@@ -84,7 +84,7 @@
                           ><i class="fab fa-google-play"></i></g-link
                       ></span>
                        <span class="icon" v-if="edge.node.app_store"
-                        ><g-link :to="edge.node.google_play"
+                        ><g-link :to="edge.node.app_store"
                           ><i class="fab fa-app-store"></i></g-link
                       ></span>
                     </td>

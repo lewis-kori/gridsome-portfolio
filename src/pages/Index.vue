@@ -162,11 +162,10 @@
                   I build things for the web
                 </h1>
                 <p>
-                  I'm a software engineer based in Nairobi,Kenya specializing in
-                  building
+                  I'm a software engineer specializing in SaaS application and MVP development 
                 </p>
                 <p>
-                  exceptional websites, applications, and everything in between.
+                  for non-technical founders, indiehackers and startups.
                 </p>
                 <div class="btn" align="center">
                   <a

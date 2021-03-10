@@ -3,8 +3,8 @@ title: Law Blog
 tech: ["django","html","css"]
 cover_image: ./images/muthuri.png
 external_link: https://muthurikathure.com
-featured: true
-year: 2019
+featured: false
+year: 2018
 made_at: freelance
 ---
 

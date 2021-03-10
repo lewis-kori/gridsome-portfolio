@@ -36,7 +36,7 @@
                     ><i class="fab fa-google-play"></i></g-link
                 ></span>
                 <span class="icon" v-if="project.app_store"
-                  ><g-link :to="project.google_play"
+                  ><g-link :to="project.app_store"
                     ><i class="fab fa-app-store"></i></g-link
                 ></span>
               </div>

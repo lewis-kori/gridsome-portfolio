@@ -10,4 +10,4 @@ cover_image: ./images/mgc.jpg
 featured: true
 ---
 
-Golf booking and ecommerce app for the prestigious Muthaiga Golf Club
+Golf booking and ecommerce app for the prestigious Muthaiga Golf Club. The saas application which incorporated e-commerce for the various merchandise as well as foodstuff the club offers. The application also features a golf booking facility which helped the club's member participation spike by a staggering 60%. Dormant members could now see the innovation and took positively to it.

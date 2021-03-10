@@ -3,6 +3,7 @@ title: Gym app
 tech: ["django","vue","google calendar api"]
 cover_image: ./images/weights.png
 github_link: https://github.com/lewis-kori/gym-app-frontend
+made_at: Open Source Software
 year: 2020
 ---
 A gym scheduling and history tracking app.

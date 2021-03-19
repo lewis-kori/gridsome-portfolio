@@ -54,6 +54,31 @@ module.exports = {
       },
     },
     {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        include: ["/","/projects","/collaborate","/posts", "/blog/**",],
+        config: {
+          '/': {
+            priority: 1.0,
+          },
+          '/posts/*': {
+            changefreq: 'weekly',
+            priority: 0.8,
+          },
+          '/blog/*': {
+            changefreq: 'weekly',
+            priority: 0.7,
+          },
+          '/projects': {
+            priority: 0.6,
+          },
+          '/collaborate': {
+            priority: 0.5,
+          }
+        }
+      }
+    },
+    {
       use: "gridsome-plugin-pwa",
       options: {
         title: "Lewis Kori",

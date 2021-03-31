@@ -8,5 +8,5 @@ year: 2021
 featured: true
 ---
 
-A recreation of the community platform [cirle.so](https://circle.so) landing page. The platform enables you to bring together your discussions, memberships, and content.
+A recreation of the community platform [circle.so](https://circle.so) landing page. The platform enables you to bring together your discussions, memberships, and content.
 Integrate a thriving community wherever your audience is, all under your own brand.

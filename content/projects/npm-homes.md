@@ -2,7 +2,7 @@
 title: Northern Property Management
 tech: ["nuxt.js","django","docker"]
 cover_image: ./images/npm-homes.png
-external_link: https://app.npm97.com/
+external_link: https://npm97.com/
 featured: true
 year: 2020
 made_at: freelance

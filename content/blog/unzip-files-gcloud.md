@@ -185,6 +185,19 @@ We'll modify our script slighty to accomodate this.
                     outfile.close()
 ```
 
+additionally, we won't be needing the service account credentials in that environment.
+
+```python
+"""
+this line changes and there's no need for auth module imports
+storage_client = storage.Client(credentials=credentials)
+"""
+
+# no requirements
+storage_client = storage.Client()
+
+```
+
 Thanks for your time, if you want more of this, [subscribe to my newsletter](https://mailchi.mp/c42286076bd8/lewiskori) to get notified whenever I make new posts.
 
 That's it from me.

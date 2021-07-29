@@ -11,5 +11,5 @@ Usage is not limited to scrapy but works with requests, BeautifulSoup and seleni
 
 <a href="https://www.scraperapi.com?fpr=lewiskori" target="_blank" style="outline:none;border:none;"><img src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/ssvxh57a/marketing_asset/banner/2670/069-ScraperAPI-GIF-320x50-v1.gif" alt="scraperapi" border="0"/></a>
 
-Using [this scraper api link](https://www.scraperapi.com?_go=korilewis) and the promo code lewis10, you'll get a 10% discount on your first purchase!!
+Using [this scraper api link](https://www.scraperapi.com?via=lewis93) and the promo code lewis10, you'll get a 10% discount on your first purchase!!
 You can always start on their generous free plan and upgrade when the need arises.

@@ -5,7 +5,7 @@ tags: ["cloudskills", "googlecloud", "python", "todayilearned"]
 cover_image: https://res.cloudinary.com/lewiskori/image/upload/v1627531895/blog/gcloud_g8xnjh.jpg
 description: A deep dive into google cloud services and how to unzip files from a google cloud bucket
 dateCreated: 2021-07-29
-sponsors: ["Scraper API", "Digital Ocean"]
+sponsors: ["Scraper API"]
 ---
 
 I've been using google cloud services over the last year and I thoroughly enjoy their range of services. In this walkthrough, I'll guide you through the process of unzipping files uploaded to Google cloud storage buckets. But first, let me give you some context.
@@ -193,7 +193,7 @@ this line changes and there's no need for auth module imports
 storage_client = storage.Client(credentials=credentials)
 """
 
-# no requirements
+# no credential requirements
 storage_client = storage.Client()
 
 ```

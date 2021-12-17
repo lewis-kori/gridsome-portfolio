@@ -10,9 +10,7 @@ sponsors: ["Digital Ocean","Scraper API"]
 
 Recently, I had to deploy a project to a DigitalOcean droplet. One of the features I really wanted for this particular project was a Continuous Delivery pipeline.
 
-The continuous delivery website defines this as
-
-> the ability to get changes of all types—including new features, configuration changes, bug fixes and experiments—into production, or into the hands of users, safely and quickly in a sustainable way.
+The continuous delivery website defines this as the ability to get changes of all types—including new features, configuration changes, bug fixes and experiments—into production, or into the hands of users, safely and quickly in a sustainable way.
 
 The goal is to make deployments—whether of a large-scale distributed system, a complex production environment, an embedded system, or an app—predictable, routine affairs that can be performed on demand.
 
@@ -31,7 +29,7 @@ There are alternative and hustle-free solutions to this such as [Vercel](https:/
 Please note that some of the links below are affiliate links and at no additional cost to you. Know that I only recommend products, tools and learning services I've personally used and believe are genuinely helpful. Most of all, I would never advocate for buying something you can't afford or that you aren't ready to implement.
 
 1. A [Github account](https://github.com)
-2. A virtual private server. I used a DigitalOcean droplet running Ubuntu 20.04 LTS. Sign up with [my referral link](https://www.digitalocean.com/?refcode=2282403be01f&utm_campaign=Referral_Invite&utm_medium=Referral_Program) and get $100 in credit for over 60 days.
+2. A virtual private server. I used a DigitalOcean droplet running Ubuntu 20.04 LTS. Sign up with [my referral link](https://www.digitalocean.com/?refcode=2282403be01f&utm_campaign=Referral_Invite&utm_medium=Referral_Program) and get $100 in credit valid for 60 days.
 
 ## Create next.js app
 
@@ -49,7 +47,7 @@ yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^
 
 We'll also declare environment variables inside the `.env.local` file. We can then reference these variables from our app like so `process.env.NEXT_PUBLIC_VARIABLE_NAME`
 
-```txt
+```sh
 NEXT_PUBLIC_BACKEND_URL=http://localhost:8000/api
 NEXT_PUBLIC_META_API_KEY=your_api_key
 ```
@@ -69,7 +67,7 @@ Docker is an open-source tool that automates the deployment of an application in
 We'll add a Dockerfile to the project root by running
 `touch Dockerfile` within the CLI.
 
-```Dockerfile
+```dockerfile
 # Install dependencies only when needed
 FROM node:alpine AS deps
 # Check https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine to understand why libc6-compat might be needed.
@@ -102,7 +100,8 @@ WORKDIR /app
 RUN addgroup -g 1001 -S nodejs
 RUN adduser -S nextjs -u 1001
 
-# You only need to copy next.config.js if you are NOT using the default configuration. Copy all necessary files used by nex.config as well otherwise the build will fail
+# You only need to copy next.config.js if you are NOT using the default configuration. 
+# Copy all necessary files used by nex.config as well otherwise the build will fail
 
 COPY --from=builder /app/next.config.js ./next.config.js
 COPY --from=builder /app/public ./public
@@ -218,6 +217,7 @@ jobs:
 ```
 
 You may have noticed our actions are very secretive 😂. Worry not, this is deliberately done to protect your sensitive information from prying eyes. They're encrypted environment variables that you(repo owner) creates for a repo that uses Github actions.
+
 > One thing to note is that the `GITHUB_TOKEN` secret is [automatically created](https://docs.github.com/en/actions/security-guides/automatic-token-authentication) for us when running the action.
 
 To create secrets go to your repository > settings > left-sidebar > secrets
@@ -227,14 +227,14 @@ For an in-depth walkthrough, see [this guide](https://docs.github.com/en/actions
 
 The expected Github secrets are
 
-```txt
-APP_NEXT_PUBLIC_BACKEND_URL - live backend server url
-APP_NEXT_PUBLIC_META_API_KEY - prod api key to thirdparty integration
-DEPLOY_HOST - IP to Digital Ocean (DO) droplet
-DEPLOY_KEY - SSH secret (pbcopy < ~/.ssh/id_rsa) and the public key should be added to `.ssh/authorized_keys` in server
-DEPLOY_PORT - SSH port (22)
-DEPLOY_USER  - User on droplet
-USERNAME - Your Github username
+```sh
+  APP_NEXT_PUBLIC_BACKEND_URL - live backend server url
+  APP_NEXT_PUBLIC_META_API_KEY - prod api key to thirdparty integration
+  DEPLOY_HOST - IP to Digital Ocean (DO) droplet
+  DEPLOY_KEY - SSH secret (pbcopy < ~/.ssh/id_rsa) and the public key should be added to `.ssh/authorized_keys` in server
+  DEPLOY_PORT - SSH port (22)
+  DEPLOY_USER  - User on droplet
+  USERNAME - Your Github username
 ```
 
 ### Lift Off 🚀
@@ -256,4 +256,4 @@ From there, you can setup a reverse proxy such as nginx within your server and p
 Yay!🥳 we have successfully created a continuous delivery pipeline and hopefully, now you'll concentrate on code instead of infrastructure.
 
 Should you have any questions, please do not hesitate to reach out to me on [Twitter](https://twitter.com/lewis_kihiu).
-Comment below if you have other feedback or additional input.
+Comment below if you have feedback or additional input.

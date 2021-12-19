@@ -14,14 +14,14 @@ The continuous delivery website defines this as the ability to get changes of al
 
 The goal is to make deployments—whether of a large-scale distributed system, a complex production environment, an embedded system, or an app—predictable, routine affairs that can be performed on demand.
 
-For my case I wanted the web app to auto-deploy to the VPS whenever I pushed changes to the main Github branch. This would consequently save a lot of development time in the process.
+For my case I wanted the web app to auto-deploy to the VPS whenever I pushed changes to the main Github branch. This would consequently save a lot of development time.
 
 ## Alternative solutions
 
 There are alternative and hustle-free solutions to this such as [Vercel](https://vercel.com/) and [DigitalOcean app platform](https://www.digitalocean.com/products/app-platform/). However one may take my route if:
 
- 1. You want to better understand Github actions
- 2. Learn more about docker
+ 1. You want to better understand Github actions.
+ 2. Learn more about docker.
  3. For Vercel's case, your client or organization may want to keep their apps in a central platform for easier management.
 
 ## Prerequisites
@@ -101,8 +101,7 @@ RUN addgroup -g 1001 -S nodejs
 RUN adduser -S nextjs -u 1001
 
 # You only need to copy next.config.js if you are NOT using the default configuration. 
-# Copy all necessary files used by nex.config as well otherwise the build will fail
-
+# Copy all necessary files used by nex.config as well otherwise the build will fail.
 COPY --from=builder /app/next.config.js ./next.config.js
 COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next ./.next
@@ -158,7 +157,7 @@ Populate the deploy.yml file with the following values.
 name: Build and Deploy
 
 # Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
+# events but only for the main branch
 on:
   push:
     branches: [main]
@@ -181,7 +180,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
       - name: Build and Publish to Github Packages Registry
         uses: elgohr/Publish-Docker-Github-Action@master
         env:

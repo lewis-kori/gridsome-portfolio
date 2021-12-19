@@ -52,7 +52,7 @@ NEXT_PUBLIC_BACKEND_URL=http://localhost:8000/api
 NEXT_PUBLIC_META_API_KEY=your_api_key
 ```
 
-These variables are for demonstration purposes only. So we won't really be referencing them within our app. An example of a place you'd call them is when instantiating an axios instance or setting a google analytics id and you don't want to commit that to the version manager.
+These variables are for demonstration purposes only. So we won't really be referencing them within our app. An example of a place you'd call them is when instantiating an axios instance or setting a google analytics id and you don't want to commit that to the version control system.
 
 Let's do a quick test run. The app should be running on `localhost:3000` if everything is setup properly.
 

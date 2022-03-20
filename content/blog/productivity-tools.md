@@ -8,7 +8,7 @@ dateCreated: 2022-03-20
 
 Freelancing is becoming a popular trend in the modern work environment. A lot of people go into freelance expecting smooth sailing. The dream is to choose their projects and do what they love when they want to. Unshackled from bureaucratic corporations. That’s the whole point of freelancing right? Well true, but in a lot of ways, it’s like starting your own business. This brings a raft of challenges and nobody prepares you for the multitude of admin tasks ahead. If not careful, this can hinder you from focusing on what you love and consequently, interfere with your productivity.
 
-Keeping organized, staying on top of deadlines, bringing new clients, creating contracts, and chasing invoices to ensure that you get paid on time are just some of the things that you have to do by yourself. Fortunately, there’s a wide range of digital tools to help you complete these important tasks with ease. I work as a software engineer for fintech companies and here are some game-changers for me when it comes to performance, dedication, and smart use of work time.
+Keeping organized, staying on top of deadlines, bringing new clients, creating contracts, and chasing invoices to ensure that you get paid on time are just some of the things that you have to do by yourself. Fortunately, there’s a wide range of digital tools to help you complete these important tasks with ease. I work as a software engineer in fintech and here are some game-changers for me when it comes to performance, dedication, and smart use of work time.
 
 ## Bonsai: Contracts and Invoicing
 

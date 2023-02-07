@@ -11,6 +11,7 @@ skills:
     - React
     - HTML & CSS
     - Solidity
+    - AWS
 ---
 Hi there!
 

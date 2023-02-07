@@ -6,7 +6,7 @@ google_play: https://play.google.com/store/apps/details?id=com.joosmoo.app
 external_link: https://joosmoo.com/
 cover_image: ./images/joosmoo.png
 year: 2019
-featured: true
+featured: false
 made_at: skyetech
 ---
 

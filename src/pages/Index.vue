@@ -228,6 +228,14 @@
       </div>
     </section>
 
+    <!-- work experience -->
+
+    <section class="section">
+      <div class="columns">
+        <WorkExperienceVue/>
+      </div>
+    </section>
+      
     <!-- projects area -->
     <section class="section">
       <div class="columns is-mobile is-centered">
@@ -302,11 +310,13 @@ import BlogCard from "~/components/BlogCard";
 import ProjectBox from "~/components/ProjectBox";
 import Footer from "~/components/Footer";
 import About from "~/components/About";
+import WorkExperienceVue from "~/components/WorkExperience.vue";
 
 export default {
   components: {
     About,
     BlogCard,
+    WorkExperienceVue,
     ProjectBox,
     Footer,
   },

@@ -5,7 +5,7 @@ google_play: https://play.google.com/store/apps/details?id=com.autointelparts.au
 external_link: https://autointelparts.com/
 cover_image: ./images/autointel.jpg
 year: 2019
-featured: true
+featured: false
 made_at: skyetech
 ---
 

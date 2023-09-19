@@ -138,7 +138,7 @@ module.exports = {
       plugins: [
         [
           'gridsome-plugin-remark-shiki',
-          { theme: materialThemePanelLight, skipInline: true },
+          { theme: 'nord', skipInline: true },
         ],
         [
           '@noxify/gridsome-plugin-remark-embed',

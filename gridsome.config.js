@@ -3,12 +3,6 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
-const shiki = require('shiki');
-
-const materialThemePanelLight = shiki.getHighlighter({
-  theme: 'material-theme-palenight',
-});
-
 module.exports = {
   siteName: 'Lewis Kori',
   siteUrl: 'https://lewiskori.com',
@@ -138,7 +132,7 @@ module.exports = {
       plugins: [
         [
           'gridsome-plugin-remark-shiki',
-          { theme: 'one-dark-pro', skipInline: true },
+          { theme: 'nord', skipInline: true },
         ],
         [
           '@noxify/gridsome-plugin-remark-embed',

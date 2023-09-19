@@ -1,7 +1,7 @@
 ---
 title: web scraping, Managing proxies and Captcha with scrapy and the Scraper API
 author: Lewis Kori
-tags: ["python","startup", "webscraping","tutorial"]
+tags: ["python", "startup", "webscraping","tutorial"]
 series: Web scraping techniques with python
 description: How to beat CAPTCHA forms while web scraping using the scraper API.
 dateCreated: 2019-09-07

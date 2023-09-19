@@ -1,7 +1,7 @@
 ---
 title: Deploying a python/django app using docker
 author: Lewis Kori
-tags: ["django","python","docker"]
+tags: ["django", "python", "docker"]
 cover_image: https://res.cloudinary.com/practicaldev/image/fetch/s--cg6jWyUt--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--VPjJbZ8D--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/9cvwld7xetx11mfzvx41.jpg
 description: Introduction to docker and django
 dateCreated: 2019-08-04

@@ -122,7 +122,7 @@ a {
 .fade-enter {
   opacity: 0;
 }
-$black: hsl(200, 40, 10);
+$black: hsl(200, 40%, 10);
 $beige: rgb(238, 238, 220);
 $base-font-size: 1.2em;
 $base-line-height: 1.2em;

@@ -1,7 +1,7 @@
 ---
 title: Handy resources and tools for python and django developers
 author: Lewis Kori
-tags: ["career","resources","python", "django"]
+tags: ["career", "resources", "python", "django"]
 description: handy resources for python and django developers
 dateCreated: 2020-11-13
 sponsors: ["Scraper API", "Digital Ocean"]

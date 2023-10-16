@@ -169,7 +169,7 @@
                 </p>
                 <div class="btn" align="center">
                   <a
-                    href="mailto:lewiskori@outlook.com"
+                    href="mailto:korikihiu@gmail.com"
                     target="_blank"
                     rel="nofollow"
                   >
@@ -195,7 +195,7 @@
     </section>
 
     <!-- blog area -->
-    <section class="section" style="margin-top: 2rem;">
+    <section class="section" style="margin-top: 1rem;">
       <div class="columns is-mobile is-centered">
         <div id="blog" class="column is-half has-text-centered">
           <h2 class="title">Blog</h2>
@@ -281,7 +281,7 @@
         <div class="column is-half">
           <div class="btn" style="margin:auto;" align="center">
             <a
-              href="mailto:lewiskori@outlook.com"
+              href="mailto:korikihiu@gmail.com"
               target="_blank"
               rel="nofollow"
             >

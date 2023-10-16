@@ -17,8 +17,10 @@ Hi there!
 
 This site is a place for me to showcase some of my projects. From small learning projects to some serious software engineering projects. It is also home to my personal blog where I write about my journey as a developer and whatever else that strikes my fancy. You can also check out all my blog posts on [dev](https://dev.to/lewiskori).
 
-I'm passionate about online businesses and specialize in helping non-technical founders and startups build exceptional online platforms end to end. I'm particularly keen on fintech. I'm adept at smart contract development within the ethereum ecosystem, payment processing and integrations with major banking and PSP APIs such as stripe, apple and google pay, [checkout](https://www.checkout.com/) etc.
+My passion revolves around the world of online businesses, with a special focus on fintech. I specialize in guiding non-technical founders and startups through the entire process of crafting exceptional online platforms. My expertise spans smart contract development within the Ethereum ecosystem, seamless payment processing, and integrations with major financial and payment service provider APIs, including Stripe, Apple Pay, Google Pay, and more.
 
-In terms of non-computer hobbies I like working out at the gym and going on runs. I also read a lot. In general I find what makes me the happiest is building stuff. So I try and optimize for that.
+Beyond the realm of computers, I find solace in the gym and the open road, pursuing fitness goals and gaining inspiration through my runs and hikes. My reading habit is an ever-present companion in my quest for knowledge.
+
+Above all, what truly lights up my world is the act of creation. Whether it's lines of code or constructing tangible projects, I thrive on the joy of building.
 
 Here are a few technologies I've worked with:

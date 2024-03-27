@@ -97,7 +97,8 @@ Finally, one can't conclude a list of python resources without mentioning [realp
 The blog has content on almost everything you can do with python.
 The content is normally beginner-focused and hence easy to learn from.
 
-I am a strong advocate of mentorship and I'd like to encourage any developer out there to take up mentorship as one grows comfortable in the industry. Revelo offers some amazing insights into this topic. With clear benefit analysis and 
+I am a strong advocate of mentorship and I'd like to encourage any developer out there to take up mentorship as one grows comfortable in the industry. [Revelo offers some amazing insights into this topic](https://www.revelo.com/blog/how-to-mentor-junior-developers).
+
 That's my list of resources I've been using to gain more knowledge of the tech industry. If you have any additional resources, post them in the comment section.
 
 If you want more posts like this, subscribe to my [newsletter](https://mailchi.mp/c42286076bd8/lewiskori) you can also find me on [twitter](https://twitter.com/lewis_kihiu).

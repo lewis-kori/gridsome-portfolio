@@ -15,12 +15,10 @@ skills:
 ---
 Hi there!
 
-This site is a place for me to showcase some of my projects. From small learning projects to some serious software engineering projects. It is also home to my personal blog where I write about my journey as a developer and whatever else that strikes my fancy. You can also check out all my blog posts on [dev](https://dev.to/lewiskori).
+Welcome to my corner of the internet! This site is where I showcase a curated selection of projects, from cutting-edge fintech platforms to scalable multitenant systems. It's also home to my personal blog, where I share insights into software engineering, startups, and life as a developer. You can find more of my writing on [Dev.to](https://dev.to/lewiskori), where I regularly share technical articles and developer tips.
 
-My passion revolves around the world of online businesses, with a special focus on fintech. I specialize in guiding non-technical founders and startups through the entire process of crafting exceptional online platforms. My expertise spans smart contract development within the Ethereum ecosystem, seamless payment processing, and integrations with major financial and payment service provider APIs, including Stripe, Apple Pay, Google Pay, and more.
+I specialize in helping startups and non-technical founders transform ambitious ideas into functional, scalable online platforms. With deep experience in the fintech space, I craft solutions that integrate smart contracts, seamless payment processing, and APIs from providers like Stripe, Google Pay, and M-Pesa. Beyond fintech, I’m passionate about building robust systems that balance technical excellence with user-centric design.
 
-Beyond the realm of computers, I find solace in the gym and the open road, pursuing fitness goals and gaining inspiration through my runs and hikes. My reading habit is an ever-present companion in my quest for knowledge.
+When I’m not coding, you’ll likely find me in the gym or exploring the outdoors through runs and hikes. I'm also an avid reader, constantly seeking new perspectives and ideas to fuel both my work and personal growth.
 
-Above all, what truly lights up my world is the act of creation. Whether it's lines of code or constructing tangible projects, I thrive on the joy of building.
-
-Here are a few technologies I've worked with:
+At the heart of it all, I’m driven by a love for building. Whether it's elegant lines of code or transformative digital solutions. Let’s create something extraordinary together!

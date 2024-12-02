@@ -3,121 +3,102 @@
     <section class="hero is-fullheight-with-navbar">
       <!-- nav area -->
       <div class="hero-head">
-        
-          <nav
-            class="navbar is-black is-fixed-top"
-            role="navigation"
-            aria-label="main navigation"
-          >
-            <div class="navbar-brand">
-              <a href="/" class="navbar-item">
-                <g-image
-                  src="https://res.cloudinary.com/lewiskori/image/upload/v1589484120/favicon_yrq0gz.png"
-                  alt="lewis_kori_logo"
-                />
-              </a>
+        <nav
+          class="navbar is-black is-fixed-top"
+          role="navigation"
+          aria-label="main navigation"
+        >
+          <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+              <g-image
+                src="https://res.cloudinary.com/lewiskori/image/upload/v1589484120/favicon_yrq0gz.png"
+                alt="lewis_kori_logo"
+              />
+            </a>
 
-              <a
-                role="button"
-                class="navbar-burger burger"
-                aria-label="menu"
-                style="z-index: 3;"
-                aria-expanded="false"
-                data-target="side-nav"
-                @click="toggleSideNav"
-                :class="{ 'is-active': showNav }"
-              >
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-              </a>
-            </div>
+            <a
+              role="button"
+              class="navbar-burger burger"
+              aria-label="menu"
+              style="z-index: 3;"
+              aria-expanded="false"
+              data-target="side-nav"
+              @click="toggleSideNav"
+              :class="{ 'is-active': showNav }"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
 
-            <!-- start side nav mobile -->
-            <aside id="side-nav" class="menu is-hidden-desktop">
-              <ul class="menu-list">
-                <li>
-                  <a
-                    href="#about"
-                    @click="toggleSideNav"
-                    v-smooth-scroll="scroll"
-                    class="navbar-item"
-                    >About</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#blog"
-                    @click="toggleSideNav"
-                    v-smooth-scroll="scroll"
-                    class="navbar-item"
-                    >Blog</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#projects"
-                    @click="toggleSideNav"
-                    v-smooth-scroll="scroll"
-                    class="navbar-item"
-                    >Projects</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#contact"
-                    @click="toggleSideNav"
-                    v-smooth-scroll="scroll"
-                    class="navbar-item"
-                    >Contact</a
-                  >
-                </li>
-                <li>
-                  <g-link
-                    to="/collaborate"
-                    class="navbar-item"
-                    >Collaborate</g-link
-                  >
-                </li>
-              </ul>
-            </aside>
-            <!-- end side nav mobile -->
-            
-            <div id="navbarItems" class="navbar-menu">
-              <div class="navbar-end">
+          <!-- start side nav mobile -->
+          <aside id="side-nav" class="menu is-hidden-desktop">
+            <ul class="menu-list">
+              <li>
                 <a
                   href="#about"
+                  @click="toggleSideNav"
                   v-smooth-scroll="scroll"
                   class="navbar-item"
                   >About</a
                 >
+              </li>
+              <li>
                 <a
                   href="#blog"
+                  @click="toggleSideNav"
                   v-smooth-scroll="scroll"
                   class="navbar-item"
                   >Blog</a
                 >
+              </li>
+              <li>
                 <a
                   href="#projects"
+                  @click="toggleSideNav"
                   v-smooth-scroll="scroll"
                   class="navbar-item"
                   >Projects</a
                 >
+              </li>
+              <li>
                 <a
                   href="#contact"
+                  @click="toggleSideNav"
                   v-smooth-scroll="scroll"
                   class="navbar-item"
                   >Contact</a
                 >
-                <g-link
-                  to="/collaborate"
-                  class="navbar-item"
+              </li>
+              <li>
+                <g-link to="/collaborate" class="navbar-item"
                   >Collaborate</g-link
                 >
-              </div>
+              </li>
+            </ul>
+          </aside>
+          <!-- end side nav mobile -->
+
+          <div id="navbarItems" class="navbar-menu">
+            <div class="navbar-end">
+              <a href="#about" v-smooth-scroll="scroll" class="navbar-item"
+                >About</a
+              >
+              <a href="#blog" v-smooth-scroll="scroll" class="navbar-item"
+                >Blog</a
+              >
+              <a href="#projects" v-smooth-scroll="scroll" class="navbar-item"
+                >Projects</a
+              >
+              <a href="#contact" v-smooth-scroll="scroll" class="navbar-item"
+                >Contact</a
+              >
+              <g-link to="/collaborate" class="navbar-item">Collaborate</g-link>
             </div>
-          </nav>
-        </div>
+          </div>
+        </nav>
+      </div>
 
       <div class="hero-body">
         <div class="container">
@@ -162,7 +143,8 @@
                   I build things for the web
                 </h1>
                 <p>
-                  I'm a software engineer specializing in SaaS application and MVP development 
+                  I'm a software engineer specializing in SaaS application and
+                  MVP development
                 </p>
                 <p>
                   for non-technical founders, indiehackers and startups.
@@ -191,6 +173,13 @@
           :key="edge.node.id"
           :about="edge.node"
         />
+      </div>
+    </section>
+
+    <!-- Jobs Area -->
+    <section class="section" id="jobs">
+      <div class="container">
+        <Jobs :jobsData="$page.jobs.edges" />
       </div>
     </section>
 
@@ -271,8 +260,9 @@
       <div class="columns is-centered">
         <div class="column is-half has-text-centered">
           <p>
-           Although I’m not currently looking for any new opportunities, my inbox is always open. 
-           Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+            Although I’m not currently looking for any new opportunities, my
+            inbox is always open. Whether you have a question or just want to
+            say hi, I’ll try my best to get back to you!
           </p>
         </div>
       </div>
@@ -280,11 +270,7 @@
       <div class="columns is-centered">
         <div class="column is-half">
           <div class="btn" style="margin:auto;" align="center">
-            <a
-              href="mailto:korikihiu@gmail.com"
-              target="_blank"
-              rel="nofollow"
-            >
+            <a href="mailto:korikihiu@gmail.com" target="_blank" rel="nofollow">
               <span>Get in touch</span></a
             >
           </div>
@@ -298,10 +284,11 @@
 </template>
 
 <script>
-import BlogCard from "~/components/BlogCard";
-import ProjectBox from "~/components/ProjectBox";
-import Footer from "~/components/Footer";
-import About from "~/components/About";
+import BlogCard from '~/components/BlogCard';
+import ProjectBox from '~/components/ProjectBox';
+import Footer from '~/components/Footer';
+import About from '~/components/About';
+import Jobs from '../components/jobs.vue';
 
 export default {
   components: {
@@ -309,6 +296,7 @@ export default {
     BlogCard,
     ProjectBox,
     Footer,
+    Jobs,
   },
   data() {
     return {
@@ -322,32 +310,32 @@ export default {
     },
   },
   mounted() {
-    const sideNav = document.querySelector("#side-nav");
-    sideNav.style.right = "-250px";
+    const sideNav = document.querySelector('#side-nav');
+    sideNav.style.right = '-250px';
   },
   methods: {
     toggleSideNav() {
-      const sideNav = document.querySelector("#side-nav");
-      if (sideNav.style.right == "-250px") {
-        sideNav.style.right = "-12px";
+      const sideNav = document.querySelector('#side-nav');
+      if (sideNav.style.right == '-250px') {
+        sideNav.style.right = '-12px';
         this.showNav = !this.showNav;
       } else {
-        sideNav.style.right = "-250px";
+        sideNav.style.right = '-250px';
         this.showNav = !this.showNav;
       }
     },
   },
   metaInfo() {
     return {
-      title: "Software Engineer",
+      title: 'Software Engineer',
       meta: [
         {
-          name: "description",
-          content: "Lewis Kori • Life long learner • Friend",
+          name: 'description',
+          content: 'Lewis Kori • Life long learner • Friend',
         },
         {
-          name: "p:domain_verify",
-          content: "d3762d023e270e751265d131b7360400"
+          name: 'p:domain_verify',
+          content: 'd3762d023e270e751265d131b7360400',
         },
       ],
     };
@@ -356,8 +344,13 @@ export default {
 </script>
 
 <page-query>
-  query ($page: Int, $title: String = "About me"){
-    blogs: allBlogPost (perPage: 6, page: $page, sortBy: "dateCreated" ,order: DESC ) @paginate {
+  query ($page: Int, $title: String = "About me") {
+    blogs: allBlogPost(
+      perPage: 6, 
+      page: $page, 
+      sortBy: "dateCreated", 
+      order: DESC
+    ) @paginate {
       pageInfo {
         totalPages
         currentPage
@@ -378,7 +371,12 @@ export default {
         }
       }
     }
-    projects: allProjects (filter: { featured: { eq: true }},sortBy: "year" ,order: DESC){
+  
+    projects: allProjects(
+      filter: { featured: { eq: true } }, 
+      sortBy: "year", 
+      order: DESC
+    ) {
       edges {
         node {
           id
@@ -388,26 +386,46 @@ export default {
           external_link
           app_store
           google_play
-          cover_image (width: 640, height: 360, blur: 10)
+          cover_image(width: 640, height: 360, blur: 10)
           content
           path
           featured
         }
       }
     }
-    other_projects: allProjects (filter: { featured: { eq: false }}){
-     totalCount
+  
+    other_projects: allProjects(filter: { featured: { eq: false } }) {
+      totalCount
     }
-  about: allAbout (filter: { title : { eq: $title }}) {
-    edges {
-      node {
-        id
-        title
-        avatar
-        content
-        skills
+  
+    about: allAbout(filter: { title: { eq: $title } }) {
+      edges {
+        node {
+          id
+          title
+          avatar
+          content
+          skills
+        }
       }
     }
-}
+  
+    jobs: allJobs(
+      sortBy: "date", 
+      order: DESC
+    ) {
+      edges {
+        node {
+          id
+          title
+          company
+          location
+          range
+          url
+          content
+        }
+      }
+    }
   }
 </page-query>
+  

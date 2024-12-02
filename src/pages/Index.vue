@@ -85,11 +85,14 @@
               <a href="#about" v-smooth-scroll="scroll" class="navbar-item"
                 >About</a
               >
-              <a href="#blog" v-smooth-scroll="scroll" class="navbar-item"
-                >Blog</a
+              <a href="#jobs" v-smooth-scroll="scroll" class="navbar-item"
+                >Experience</a
               >
               <a href="#projects" v-smooth-scroll="scroll" class="navbar-item"
                 >Projects</a
+              >
+              <a href="#blog" v-smooth-scroll="scroll" class="navbar-item"
+                >Blog</a
               >
               <a href="#contact" v-smooth-scroll="scroll" class="navbar-item"
                 >Contact</a
@@ -140,10 +143,10 @@
               <div class="animated fadeInUp slow">
                 <h1 class="title" style="color: beige;">Lewis Kori.</h1>
                 <h1 class="title" style="color: darkgrey;">
-                  I build things for the web
+                  Turning ideas into scalable web solutions
                 </h1>
                 <p>
-                  I'm a software engineer specializing in SaaS application and
+                  I’m a software engineer specializing in SaaS applications and
                   MVP development
                 </p>
                 <p>
@@ -182,6 +185,38 @@
         <Jobs :jobsData="$page.jobs.edges" />
       </div>
     </section>
+    <!-- End Jobs Area -->
+
+    <!-- projects area -->
+    <section class="section">
+      <div class="columns is-mobile is-centered">
+        <div id="projects" class="column is-half has-text-centered">
+          <h2 class="title">Projects</h2>
+        </div>
+      </div>
+
+      <div class="columns is-multiline">
+        <div class="column">
+          <ul>
+            <li v-for="edge in $page.projects.edges" :key="edge.id">
+              <ProjectBox :project="edge.node" />
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="columns is-mobile is-centered"
+        v-if="$page.other_projects.totalCount >= 1"
+      >
+        <div id="archive" class="column is-half has-text-centered">
+          <g-link to="/projects/" style="color:#64ffda;"
+            >View the archive</g-link
+          >
+        </div>
+      </div>
+    </section>
+    <!-- end project -->
 
     <!-- blog area -->
     <section class="section" style="margin-top: 1rem;">
@@ -216,37 +251,6 @@
         </div>
       </div>
     </section>
-
-    <!-- projects area -->
-    <section class="section">
-      <div class="columns is-mobile is-centered">
-        <div id="projects" class="column is-half has-text-centered">
-          <h2 class="title">Projects</h2>
-        </div>
-      </div>
-
-      <div class="columns is-multiline">
-        <div class="column">
-          <ul>
-            <li v-for="edge in $page.projects.edges" :key="edge.id">
-              <ProjectBox :project="edge.node" />
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div
-        class="columns is-mobile is-centered"
-        v-if="$page.other_projects.totalCount >= 1"
-      >
-        <div id="archive" class="column is-half has-text-centered">
-          <g-link to="/projects/" style="color:#64ffda;"
-            >View the archive</g-link
-          >
-        </div>
-      </div>
-    </section>
-    <!-- end project -->
 
     <!-- contact section -->
 
@@ -428,4 +432,3 @@ export default {
     }
   }
 </page-query>
-  

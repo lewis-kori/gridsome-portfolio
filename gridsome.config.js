@@ -47,6 +47,13 @@ module.exports = {
       },
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Jobs',
+        path: 'content/jobs/**/*.md',
+      },
+    },
+    {
       use: '@gridsome/plugin-google-analytics',
       options: {
         id: 'UA-137370458-4',

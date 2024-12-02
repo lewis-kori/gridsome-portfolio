@@ -13,7 +13,7 @@
         <div class="column is-half">
           <div class="btn" style="margin:auto;" align="center">
             <a
-              href="mailto:korikihiu@gmail.com"
+              href="mailto:n8tocd0jy@mozmail.com"
               target="_blank"
               rel="nofollow"
             >

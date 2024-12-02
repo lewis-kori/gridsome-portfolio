@@ -31,7 +31,7 @@
 
         <!-- Content Panels -->
         <div class="column">
-          <transition-group name="fade" mode="out-in">
+          <transition-group name="slide" mode="out-in">
             <div
               v-for="(job, index) in jobsData"
               :key="job.node.id"
@@ -205,14 +205,21 @@ export default {
   line-height: 12px;
 }
 
-/* Fade animation */
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.25s ease, transform 0.25s ease;
+/* Slide Transition */
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.51s ease, opacity 0.51s ease; /* Adjusted to 70% slower */
+  position: absolute;
+  width: 100%; /* Ensures the panels take up the same space */
 }
-.fade-enter,
-.fade-leave-to {
+
+.slide-enter,
+.slide-leave-to {
   opacity: 0;
-  transform: translateY(-10px);
+  transform: translateX(100%); /* Enter: Slide in from the right */
+}
+
+.slide-leave-active {
+  transform: translateX(-100%); /* Leave: Slide out to the left */
 }
 </style>

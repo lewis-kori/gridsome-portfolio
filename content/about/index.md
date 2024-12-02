@@ -22,3 +22,5 @@ I specialize in helping startups and non-technical founders transform ambitious 
 When I’m not coding, you’ll likely find me in the gym or exploring the outdoors through runs and hikes. I'm also an avid reader, constantly seeking new perspectives and ideas to fuel both my work and personal growth.
 
 At the heart of it all, I’m driven by a love for building. Whether it's elegant lines of code or transformative digital solutions. Let’s create something extraordinary together!
+
+Here are a few technologies I've worked with:

@@ -10,4 +10,4 @@ cover_image: ./images/psc.png
 featured: true
 ---
 
-Sports booking and ecommerce app for the prestigious Parklands Sports Club. The app's sports booking facility helped the club's members easily book sports sessions online. The app boasts of powerful ecommerce features that allow members to conveniently order various items from the club online and have them conveniently delivered. Dormant members could now see the innovation and took positively to it.
+A dynamic sports booking and e-commerce app developed for the prestigious Parklands Sports Club. The app simplifies sports session bookings and features a robust e-commerce platform, enabling members to order club items online with delivery options. It revitalized engagement, attracting dormant members and enhancing the overall member experience.

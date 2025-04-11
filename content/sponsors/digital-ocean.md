@@ -4,9 +4,8 @@ url: https://m.do.co/c/2282403be01f
 twitter: https://twitter.com/digitalocean
 ---
 
-Looking for cloud hosting for your projects? Digital Ocean is just the right partner for you.
+DigitalOcean makes it easy to launch, scale, and manage your cloud infrastructure — without the overwhelm.
 
-They make it simple to launch in the cloud and scale up as you grow – with predictable pricing, team accounts, and more.
-Their intuitive control panel and API give you time to build more and spend less time managing your infrastructure.
+Simple pricing. Powerful API. A clean UI that actually respects your time.
 
-Using this [digitalocean link](https://m.do.co/c/2282403be01f) to sign up, you'll get $100 in credit for the first two months!
+Use [this link](https://m.do.co/c/2282403be01f) to get $200 in free credits for your first two months. Perfect for testing, launching, or scaling your next side project or startup.

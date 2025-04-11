@@ -21,13 +21,10 @@
           <div v-if="$page.post.sponsors.length > 0" class="sponsors">
             <h3 class="title is-medium">Sponsors</h3>
             <p>
-              <strong
-                >Please note that some of the links below are affiliate links
-                and at no additional cost to you. Know that I only recommend
-                products, tools and learning services I've personally used and
-                believe are genuinely helpful. Most of all, I would never
-                advocate for buying something you can't afford or that you
-                aren't ready to implement.
+              <strong>
+                Some of the links below are affiliate links, which means I may earn a small commission — at no extra cost to you.
+                I only recommend tools, products, and services I’ve personally used and found genuinely helpful in my work or learning journey.
+                These sponsors quietly help keep the lights on around here — and I’m grateful for that. Please don’t buy anything you can’t afford or aren’t ready to put to use.
               </strong>
             </p>
             <SponsorCard

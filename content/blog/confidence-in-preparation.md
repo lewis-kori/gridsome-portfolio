@@ -1,5 +1,5 @@
 ---
-title: The Architecture of Assurance: How Preparation Builds True Confidence
+title: The Architecture of Assurance How Preparation Builds True Confidence
 author: Lewis Kori
 tags: ["career","preparation","psychology"]
 description: Discover how disciplined preparation—from system architecture and edge-case planning to thoughtful personal habits—builds genuine, lasting confidence.

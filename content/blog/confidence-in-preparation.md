@@ -2,7 +2,7 @@
 title: The Architecture of Assurance How Preparation Builds True Confidence
 author: Lewis Kori
 tags: ["career","preparation","psychology"]
-description: Discover how disciplined preparation—from system architecture and edge-case planning to thoughtful personal habits—builds genuine, lasting confidence.
+description: Discover how proactive preparation builds lasting confidence in all aspects of life, from software engineering to personal relationships. Learn the principles of intentional preparation.
 dateCreated: 2025-05-12
 sponsors: []
 ---

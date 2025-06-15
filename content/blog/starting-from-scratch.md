@@ -1,5 +1,5 @@
 ---
-title: he Quiet Power of Starting From Scratch
+title: The Quiet Power of Starting From Scratch
 author: Lewis Kori
 tags: ["career","psychology"]
 description: Discover why embracing the beginner mindset can be a quiet superpower in both life and work. Lewis Kori reflects on a rooftop encounter, the joy of lifelong learning, and the importance of staying curious.

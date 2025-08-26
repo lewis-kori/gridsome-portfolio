@@ -19,7 +19,7 @@ export default {
 
         {
           name: 'keywords',
-          content: this.$page.post.tags.map((t) => t.title).join(', '),
+          content: this.post.tags.map((t) => t.title).join(', '),
         },
 
         // Some Open Graph Tags

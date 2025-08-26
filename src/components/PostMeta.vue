@@ -11,28 +11,50 @@
 
 <script>
 export default {
-  props: ["post"],
+  props: ['post'],
   metaInfo() {
     return {
       meta: [
-        { name: "description", content: this.post.description },
+        { name: 'description', content: this.post.description },
+
+        {
+          name: 'keywords',
+          content: this.$page.post.tags.map((t) => t.title).join(', '),
+        },
 
         // Some Open Graph Tags
-        { property: "og:title", content: this.post.title },
-        { property: "og:description", content: this.post.description },
-        { property: "og:image", content: this.post.cover_image },
+        { property: 'og:title', content: this.post.title },
+        { property: 'og:site_name', content: 'Lewis Kori' },
+
+        { property: 'og:description', content: this.post.description },
+        { property: 'og:image', content: this.post.cover_image },
         {
-          property: "og:url",
+          property: 'og:url',
           content: this.$static.metadata.siteUrl + this.post.path,
         },
+        { property: 'og:type', content: 'article' },
+        { property: 'article:author', content: this.post.author },
+        { property: 'article:published_time', content: this.post.dateCreated },
+        { property: 'article:modified_time', content: this.post.lastModified },
         // Some Twitter Cards Tags
-        { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:creator", content: "@lewis_kihiu" },
-        { name: "twitter:title", content: this.post.title },
-        { name: "twitter:description", content: this.post.description },
-        { name: "twitter:image", content: this.post.cover_image },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:creator', content: '@lewis_kihiu' },
+        { name: 'twitter:title', content: this.post.title },
+        { name: 'twitter:description', content: this.post.description },
+        { name: 'twitter:image', content: this.post.cover_image },
+        {
+          name: 'twitter:image:alt',
+          content: this.post.title + ' cover image',
+        },
       ],
-      link: [{ rel: "canonical", href: this.post.canonical_url }],
+      link: [
+        {
+          rel: 'canonical',
+          href:
+            this.post.canonical_url ||
+            this.$static.metadata.siteUrl + this.post.path,
+        },
+      ],
     };
   },
 };

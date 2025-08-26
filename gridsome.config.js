@@ -6,6 +6,9 @@
 module.exports = {
   siteName: 'Lewis Kori',
   siteUrl: 'https://lewiskori.com',
+  // metadata: {
+  //   defaultCover: "/images/default-cover.jpg" // Todo: Source the image
+  // },
   titleTemplate: 'Lewis Kori | %s',
   plugins: [
     {

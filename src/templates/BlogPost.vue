@@ -103,6 +103,13 @@ export default {
 a {
   color: #64ffda;
 }
+hr {
+  width: 80px;
+  margin: 2rem auto;
+  border: none;
+  border-top: 2px solid transparent;
+  background-image: linear-gradient(to right, transparent, #aaa, transparent);
+}
 .post-title {
   padding: calc(const(--space) / 2) 0 calc(const(--space) / 2);
   text-align: center;

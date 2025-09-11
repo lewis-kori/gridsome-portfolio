@@ -225,7 +225,7 @@ When you capture a custom event from the backend, it's now context-aware:
 posthog_client.client.capture(
     distinct_id=request.user.id,
     event='article_listed', 
-    properties={'article_id': new_artice.id, 'category': new_artice.category.name},
+    properties={'article_id': new_article.id, 'category': new_article.category.name},
     groups={'organization': str(request.tenant.id)}
 )
 ```

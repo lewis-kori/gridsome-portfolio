@@ -27,4 +27,4 @@ To teach and connect.
 To grow.  
 And to express.  
 
-That’s enough reason to keep at it and why [getting back to writing](blog/why-i-haven-t-blogged-in-years-and-how-i-m-overcoming-the-fear/) felt like returning to something essential.
+That’s enough reason to keep at it and why [getting back to writing](/blog/why-i-haven-t-blogged-in-years-and-how-i-m-overcoming-the-fear/) felt like returning to something essential.

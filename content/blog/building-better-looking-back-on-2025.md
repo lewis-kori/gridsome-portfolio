@@ -20,30 +20,30 @@ dateCreated: 2025-12-26
 
 I didn’t enter 2025 looking for reinvention.
 
-After a turbulent 2024, what I wanted was steadiness. Less noise. More intention. I came into the new year with renewed energy, yes, but also with a quiet resolve to build better systems around my life, my work, and myself.
+After a turbulent 2024, what I wanted was steadiness. Less noise. More intention. I came into the new year with renewed energy, yes, but also with a quiet resolve to build better systems around my life, my work and myself.
 
-Looking back now, 2025 wasn’t defined by dramatic pivots or loud milestones. It was defined by recalibration. By becoming more deliberate about how I spend my time, where I invest my energy, and what kind of person I’m actively trying to be.
+Looking back now, 2025 wasn’t defined by dramatic pivots or loud milestones. It was defined by recalibration. By becoming more deliberate about how I spend my time, where I invest my energy and what kind of person I’m actively trying to be.
 
 This is me taking stock.
 
 ---
 
-## **Teaching, and Being Taught**
+## **Teaching and Being Taught**
 
 One of the most grounding experiences of the year was teaching at [Kamilimu](https://www.kamilimu.org/).
 
 When I committed to mentoring, the question that stayed with me was simple: *What kind of teacher do I want to be?*
 Not just competent, but present. Nothing flashy, but genuinely helpful.
 
-Preparation was a challenge. My schedule was already full, so I had to be ruthless about clarity. I couldn’t over-prepare or hide behind complexity. Teaching forced me to distill ideas, explain them simply, and show up consistently.
+Preparation was a challenge. My schedule was already full, so I had to be ruthless about clarity. I couldn’t over-prepare or hide behind complexity. Teaching forced me to distill ideas, explain them simply and show up consistently.
 
-What surprised me most was how much structure it brought into my own life. Teaching sharpened my thinking. The students challenged assumptions I didn’t even realise I had. Watching them grow, and eventually graduate, reminded me that impact compounds quietly, the same way good habits and good systems do.
+What surprised me most was how much structure it brought into my own life. Teaching sharpened my thinking. The students challenged assumptions I didn’t even realise I had. Watching them grow and eventually graduate, reminded me that impact compounds quietly, the same way good habits and good systems do.
 
 I gave a lot. I also learned a lot.
 
 ---
 
-## **Strength, Discipline, and Owning the Process**
+## **Strength, Discipline and Owning the Process**
 
 Running [a gym](https://www.millenniumgyms.co.ke/) teaches you things spreadsheets never will.
 
@@ -53,7 +53,7 @@ This year, I hired a new personal trainer whose focus was strength training. I r
 
 I ended up loving it.
 
-Strength training reshaped how I think about progress. Boxing, which I leaned into more seriously this year, did the same. There’s something deeply honest about it. No shortcuts. No pretending. Just presence, endurance, and timing. Hands down, one of the best sports I’ve ever taken up.
+Strength training reshaped how I think about progress. Boxing, which I leaned into more seriously this year, did the same. There’s something deeply honest about it. No shortcuts. No pretending. Just presence, endurance and timing. Hands down, one of the best sports I’ve ever taken up.
 
 I still ran. Several half marathons. Many early morning runs. But strength taught me patience. Boxing taught me humility.
 
@@ -69,9 +69,9 @@ Not for output. For clarity.
 
 Somewhere along the way, the creative muscles had gone quiet. This year, they woke up again. Writing became a way to think rather than perform. A place to slow down and process.
 
-Going into the new year, I want to do more of this in different forms. I’m taking storytelling seriously, learning through tools like **NotebookLM**, and treating writing as a skill worth sharpening, not just a habit.
+Going into the new year, I want to do more of this in different forms. I’m taking storytelling seriously, learning through tools like **NotebookLM** and treating writing as a skill worth sharpening, not just a habit.
 
-> NotebookLM is an AI-powered research and note-taking tool that allows you to upload your own documents, links, and sources, then interact with them conversationally. Instead of searching endlessly or rereading material, you can ask questions, generate summaries, and synthesise ideas directly from your own knowledge base. It’s become a powerful thinking companion for me.
+> NotebookLM is an AI-powered research and note-taking tool that allows you to upload your own documents, links and sources, then interact with them conversationally. Instead of searching endlessly or rereading material, you can ask questions, generate summaries and synthesise ideas directly from your own knowledge base. It’s become a powerful thinking companion for me.
 You can explore it here: https://notebooklm.google
 
 I missed this version of myself.
@@ -82,19 +82,19 @@ I missed this version of myself.
 
 It’s impossible to reflect on 2025 without talking about AI.
 
-This year made it unmistakably clear that the world has fundamentally changed. Not just in tools, but in expectations, leverage, and pace. Small, focused teams can now achieve things that previously required scale and capital.
+This year made it unmistakably clear that the world has fundamentally changed. Not just in tools, but in expectations, leverage and pace. Small, focused teams can now achieve things that previously required scale and capital.
 
 A [take](https://x.com/ivanhzhao/status/2003192654545539400?s=20) that deeply resonated with me came from Ivan Zhao, CEO of Notion. He described our current moment as one where we’re still “swapping out the waterwheel” — layering AI on top of old workflows instead of reimagining how work should look in an AI-native world. His point wasn’t that AI is incremental, but that we haven’t yet redesigned our systems to truly match its potential.
 
 That framing stuck with me.
 
-The AI boom hasn’t felt abstract. It has changed how we build, how we think, and how we create. It’s forcing a reset of mental models across industries. I find this era genuinely exciting. I’ve always been a technophile, and this moment feels less like a threat and more like a frontier.
+The AI boom hasn’t felt abstract. It has changed how we build, how we think and how we create. It’s forcing a reset of mental models across industries. I find this era genuinely exciting. I’ve always been a technophile and this moment feels less like a threat and more like a frontier.
 
 The tools are improving rapidly. Our approaches are still catching up. And I believe this is only the beginning.
 
 ---
 
-## **Love, Loss, and the People Who Keep You Grounded**
+## **Love, Loss and the People Who Keep You Grounded**
 
 I loved. I lost. I bounced back.
 
@@ -106,23 +106,23 @@ That matters to me more than most achievements.
 
 ---
 
-## **Work, Opportunity, and Better Systems**
+## **Work, Opportunity and Better Systems**
 
 I’m grateful for the career and business opportunities this year brought.
 
-More importantly, I’m proud of how I restructured how I work. I fundamentally changed how I allocate time, energy, and resources. Less chaos. More leverage. More intention.
+More importantly, I’m proud of how I restructured how I work. I fundamentally changed how I allocate time, energy and resources. Less chaos. More leverage. More intention.
 
 There is still plenty of room to grow, but the foundation feels solid. And that makes everything else possible.
 
 ---
 
-## **Movement, Travel, and Curiosity**
+## **Movement, Travel and Curiosity**
 
 I travelled more this year. Not as much as I would have liked, but enough to remind me why it matters. Adventures with my gym community added texture to the year. Shared effort has a way of turning strangers into people.
 
 I also returned to reading. Properly reading. Slowly. Intentionally.
 
-On the tech side, curiosity stayed alive. I explored headless CMSs like [Directus](https://directus.io/) and [Strapi](https://strapi.io/), and began looking seriously into [Payload](https://payloadcms.com/). I spent time evaluating [Adonis.js](https://adonisjs.com/) as a backend framework. I switched my primary browser from Chrome to [Arc](https://arc.net/), which I still believe is one of the best browsers ever built. I’m watching [Dia](https://www.diabrowser.com/) closely and will likely switch fully once it matures.
+On the tech side, curiosity stayed alive. I explored headless CMSs like [Directus](https://directus.io/) and [Strapi](https://strapi.io/) and began looking seriously into [Payload](https://payloadcms.com/). I spent time evaluating [Adonis.js](https://adonisjs.com/) as a backend framework. I switched my primary browser from Chrome to [Arc](https://arc.net/), which I still believe is one of the best browsers ever built. I’m watching [Dia](https://www.diabrowser.com/) closely and will likely switch fully once it matures.
 
 Curiosity is a form of optimism. I’m glad it stayed with me.
 
@@ -175,4 +175,4 @@ And sometimes, that’s exactly what building better looks like.
 
 - *Dune: Part Two*
 
-- *Suits* (still holds up, and yes, Harvey Specter remains a source of inspiration)
+- *Suits* (still holds up and yes, Harvey Specter remains a source of inspiration)

@@ -110,7 +110,7 @@ That matters to me more than most achievements.
 
 I’m grateful for the career and business opportunities this year brought.
 
-More importantly, I’m proud of how I restructured how I work. We fundamentally changed how I allocate time, energy, and resources. Less chaos. More leverage. More intention.
+More importantly, I’m proud of how I restructured how I work. I fundamentally changed how I allocate time, energy, and resources. Less chaos. More leverage. More intention.
 
 There is still plenty of room to grow, but the foundation feels solid. And that makes everything else possible.
 

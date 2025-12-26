@@ -14,7 +14,7 @@ tags: [
 ]
 series: Annual Reviews
 description: A reflective review of my 2025. Lessons from building businesses, teaching, writing, training and navigating a rapidly changing technological landscape shaped by AI.
-dateCreated: 2025-12-31
+dateCreated: 2025-12-26
 ---
 
 

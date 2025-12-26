@@ -159,6 +159,8 @@ And sometimes, that’s exactly what building better looks like.
 
 - [The Bootstrapped Founder](https://pod.link/1497896808)
 
+- [The Stack Overflow Podcast](https://pod.link/aHR0cHM6Ly9yc3MuYXJ0MTkuY29tL3RoZS1zdGFjay1vdmVyZmxvdy1wb2RjYXN0)
+
 - [Fall of Civilizations](https://pod.link/1449884495)
 
 **Youtube**

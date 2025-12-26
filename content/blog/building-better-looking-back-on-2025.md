@@ -171,7 +171,7 @@ And sometimes, that’s exactly what building better looks like.
 
 - *Good Will Hunting*
 
-- The Curious Case of Benjamin Button
+- *The Curious Case of Benjamin Button*
 
 - *Dune: Part Two*
 

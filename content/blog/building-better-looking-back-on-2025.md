@@ -175,4 +175,4 @@ And sometimes, that’s exactly what building better looks like.
 
 - *Dune: Part Two*
 
-- *Suits* (still holds up and yes, Harvey Specter remains a source of inspiration)
+- *Suits* (still holds up, and yes, Harvey Specter remains a source of inspiration)

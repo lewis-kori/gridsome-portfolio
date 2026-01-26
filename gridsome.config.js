@@ -3,13 +3,17 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+
+const siteName = 'Lewis Kori';
+const siteUrl = 'https://v2.lewiskori.com';
+
 module.exports = {
-  siteName: 'Lewis Kori',
-  siteUrl: 'https://v2.lewiskori.com',
+  siteName: siteName,
+  siteUrl: siteUrl,
   // metadata: {
   //   defaultCover: "/images/default-cover.jpg" // Todo: Source the image
   // },
-  titleTemplate: 'Lewis Kori | %s',
+  titleTemplate: `${siteName} | %s`,
   plugins: [
     {
       use: '@gridsome/source-filesystem',
@@ -60,15 +64,15 @@ module.exports = {
       use: 'gridsome-plugin-rss',
       options: {
         contentTypeName: 'BlogPost',
-        feedOptions: {
+        feedOptio`${siteName} Blog`
           title: 'Lewis Kori Blog',
-          feed_url: 'https://v2.lewiskori.com/rss.xml',
-          site_url: 'https://v2.lewiskori.com',
+          feed_url: `${siteUrl}/rss.xml`,
+          site_url: siteUrl,
         },
         feedItemOptions: (node) => ({
           title: node.title,
           description: node.description,
-          url: 'https://v2.lewiskori.com' + node.path,
+          url: siteUrl + node.path,
           author: node.author,
         }),
         output: {

@@ -64,8 +64,8 @@ module.exports = {
       use: 'gridsome-plugin-rss',
       options: {
         contentTypeName: 'BlogPost',
-        feedOptio`${siteName} Blog`
-          title: 'Lewis Kori Blog',
+        feedOptions: {
+          title: `${siteName} Blog`,
           feed_url: `${siteUrl}/rss.xml`,
           site_url: siteUrl,
         },
@@ -86,10 +86,7 @@ module.exports = {
   transformers: {
     remark: {
       plugins: [
-        [
-          'gridsome-plugin-remark-shiki',
-          { theme: 'nord', skipInline: true },
-        ],
+        ['gridsome-plugin-remark-shiki', { theme: 'nord', skipInline: true }],
         [
           '@noxify/gridsome-plugin-remark-embed',
           {
